@@ -1,0 +1,43 @@
+<mockup version="1.0" skin="sketch" measuredW="652" measuredH="401" mockupW="413" mockupH="251">
+  <controls>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="282" y="191" w="-1" h="-1" measuredW="36" measuredH="21" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="392" y="191" w="260" h="26" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="282" y="227" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Passward</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="392" y="224" w="260" h="26" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="282" y="332" w="198" h="27" measuredW="59" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sign%20in</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="239" y="150" w="-1" h="-1" measuredW="214" measuredH="26" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>18</size>
+        <text>User%20account%20information</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="282" y="374" w="198" h="27" measuredW="74" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Register</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::CheckBox" x="282" y="284" w="198" h="33" measuredW="171" measuredH="22" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Remember%20my%20password</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Link" x="392" y="257" w="-1" h="-1" measuredW="128" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>I%20forget%20my%20password</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
