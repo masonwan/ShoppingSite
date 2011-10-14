@@ -1,1 +1,0 @@
-Congratulations! If you can read this file, it means that you've setup your git correctly.
