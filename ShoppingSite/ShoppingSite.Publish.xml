@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="https://sjsu.yyfearth.com:8172/MsDeploy.axd" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="CMPE202/ShoppingSite" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="False" msdeployMarkAsApp="True" profileName="WebDeploy" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="Administrator" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2+MjoDgk/UuqNoV6U0pgvQAAAAACAAAAAAAQZgAAAAEAACAAAADCSxnKXUr2zAJUlvFKxxgWqcjKyYEVksZB7mNPtLOQzgAAAAAOgAAAAAIAACAAAAAcTLeQUaq67/CqmDiiazk2pynkccLvx5d3LLwdxpOirRAAAACtvMV4KmdtWXF1JRkA4TkjQAAAAISkJKetFV+PsjlWCHgr/D2p2QpuFYjGUo8pz/1BV2RzzL3xY1lCyUrSblO87Y3yAVSHpsi8YdR3Q+qF6A8/63M=" SelectedForPublish="True" />
+</publishData>
