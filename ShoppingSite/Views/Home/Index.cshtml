@@ -1,0 +1,85 @@
+﻿@{
+	ViewBag.Title = "Home";
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/style.css")" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Welcome to Shopping.com</title>
+	<!--[if IE]>
+	<script src="js/html5.js"></script><![endif]-->
+	<!--[if lte IE 7]>
+	<script src="js/IE8.js" type="text/javascript"></script><![endif]-->
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
+	<!--[if lt IE 9]>
+  <link type="text/css" href="css/movingboxes-ie.css" rel="stylesheet" media="screen" />
+  <![endif]-->
+</head>
+<body>
+	<section id="container">
+		<header id="header">
+			<div id="header-in">
+				<aside class="logo">
+					<a href="#">
+						<img alt="" src="@Url.Content("~/Content/images/logo.png")" /></a></aside>
+				<aside class="top-links margnleft342">
+					<a href="#">Sign In</a><strong style="font-weight: normal; font-size: 12px;">|</strong> <a href="#">Sign Up</a></aside>
+				<aside class="serch-box">
+					<input class="input1 left" type="text" value="Store Locator" onfocus="if (this.value == 'Store Locator') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Store Locator';}" />
+					<a href="#" class="left">
+						<img alt="" src="@Url.Content("~/Content/images/search-icone.png")" align="absmiddle" /></a>
+				</aside>
+				<nav id="navgation">
+					<ul>
+						<li><a class="home" href=""></a></li>
+						<li><a class="means" href=""></a></li>
+						<li><a class="women" href=""></a></li>
+						<li><a class="boy" href=""></a></li>
+						<li><a class="girl" href=""></a></li>
+						<li><a class="sale" href=""></a></li>
+					</ul>
+				</nav>
+				<aside class="clear">
+				</aside>
+				<nav id="nav-bot">
+					<div class="right marright40">
+						<a href="#">
+							<img alt="" src="@Url.Content("~/Content/images/icone2.png")" hspace="2" align="absmiddle" />My Cart: <strong>2 Items</strong></a>
+					</div>
+					<select name="select" id="select" class="select1 left">
+						<option>Departments</option>
+						<option>Departments</option>
+						<option>Departments</option>
+						<option>Departments</option>
+						<option>Departments</option>
+					</select>
+					<input class="input2 left marleft22" type="text" value="Search" name="email2" id="email2" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
+					<a href="#" class="marleft5">
+						<img alt="" src="@Url.Content("~/Content/images/btn-search.png")" /></a>
+				</nav>
+			</div>
+			<aside class="clear">
+			</aside>
+		</header>
+		<div id="content">
+			<aside id="content-left">
+				<img alt="" src="@Url.Content("~/Content/images/pic2.png")" width="209" height="194" />
+				<img alt="" src="@Url.Content("~/Content/images/pic3.jpg")" hspace="2" vspace="20" />
+			</aside>
+			<aside id="content-right">
+				<img alt="" src="@Url.Content("~/Content/images/pic1.jpg")" width="730" height="480" />
+			</aside>
+		</div>
+		<section id="footer">
+			<div class="footer-in">
+				<span class="right">Designed & Developed by <a href="http://www.galaxyweblinks.com/" target="_blank">Galaxy Weblinks</a></span><a href="#">Home</a> <strong style="font-size: 12px; font-weight: normal;">|</strong> <a href="#">About Us</a><strong style="font-size: 12px; font-weight: normal;"> |</strong> <a href="#">Contact Us</a> <strong style="font-size: 12px; font-weight: normal;">|</strong> <a href="#">Terms of Service</a> <strong style="font-size: 12px; font-weight: normal;">|</strong> <a href="#">Privacy Policy</a><br>
+				Shopping.com © 2011
+			</div>
+		</section>
+		<aside class="clear">
+		</aside>
+	</section>
+</body>
+</html>

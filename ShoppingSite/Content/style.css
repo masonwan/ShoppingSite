@@ -1,0 +1,258 @@
+
+body,html,div,p
+{ margin:0px;
+  padding:0px;
+}
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(images/main-bg.jpg);
+}
+#container
+{ 
+    width:100%; float:left; background:url(images/main-in.jpg) repeat-x; background-position:0 150px;
+}
+
+#header{width:100%; height:150px; float:left; background:url(images/header-bg.jpg) repeat-x left top;}
+#header-in
+{ width:964px;
+  margin:0 auto;
+  padding:0px 18px 0px 18px;
+}
+.clear
+{ clear:both;
+}
+.left
+{ float:left;
+}
+.right
+{ float:right;
+}
+a
+{ outline:none;
+}
+img
+{ border:none;
+}
+.logo
+{ width:267px;
+  float:left;
+  margin:15px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+.top-links
+{ width:105px;
+  float:left;
+  color:#000000;
+  margin-top:13px;
+}
+.top-links a
+{ font-size:12px;
+  color:#000000;
+  text-decoration:none;
+  padding:0px 7px 0px 0px;
+}
+.top-links a:hover
+{ color:#666666;
+}
+.margnleft342
+{ margin-left:342px;
+}
+.serch-box
+{ width:228px;
+  float:left;
+  margin:10px 0px 0px 12px;
+}
+.input1
+{ background:url(images/input1-bg.jpg) repeat-x left top;
+  border:none;
+  width:185px;
+ */ width:174px;
+  height:26px;
+  line-height:26px;
+  font-size:14px;
+  padding-left:10px;
+  color:#666666;
+
+  border-left:#CCCCCC solid 1px;
+
+  
+}
+#navgation
+{ width:1000px;
+  float:left;
+  margin-top:16px; margin-top:18px\0/;
+
+}
+#navgation ul
+{ margin:0px;
+  padding:0px;
+}
+#navgation ul li
+{ list-style-type:none;
+  float:left;
+  display:block;
+  border-right:1px #981F23 solid;
+}
+a.home
+{ width:38px;
+  float:left;
+  height:33px;
+  background:url(images/home.png) no-repeat  center center;
+  line-height:33px;
+  padding:0px 20px;
+}
+a:hover.home
+{ background-color:#981F23;
+}
+a.means
+{ width:38px;
+  float:left;
+  height:33px;
+  background:url(images/means.png) no-repeat center center;
+  line-height:33px;
+  padding:0px 20px;
+}
+a:hover.means
+{ background-color:#981F23;
+}
+a.women
+{ width:60px;
+  float:left;
+  height:33px;
+  background:url(images/womens.png) no-repeat center center;
+  line-height:33px;
+  padding:0px 20px;
+}
+a:hover.women
+{ background-color:#981F23;
+}
+a.boy
+{ width:33px;
+  float:left;
+  height:33px;
+  background:url(images/boys.png) no-repeat center center;
+  line-height:33px;
+  padding:0px 20px;
+}
+a:hover.boy
+{ background-color:#981F23;
+}
+a.girl
+{ width:38px;
+  float:left;
+  height:33px;
+  background:url(images/girls.png) no-repeat center center;
+  line-height:33px;
+  padding:0px 20px;
+}
+a:hover.girl
+{ background-color:#981F23;
+}
+a.sale
+{ width:38px;
+  float:left;
+  height:33px;
+  background:url(images/sale.png) no-repeat center center;
+  line-height:34px;
+  padding:0px 20px;
+}
+a:hover.sale
+{ background-color:#981F23;
+}
+#nav-bot
+{ width:1000px;
+  float:left;
+  margin-top:3px;
+  */margin-top:4px;
+
+
+}
+#nav-bot a
+{ font-size:12px;
+  color:#FFFFFF;
+  text-decoration:none;
+}
+#nav-bot a:hover
+{ color:#CCCCCC;
+}
+select
+{ background:url(images/select-bg.jpg) repeat-x left top #FFFFFF;
+}
+.select1
+{ width:188px;
+  border:1px #CCCCCC solid;
+  font-size:14px;
+  color:#666666;
+  padding:4px 7px;
+}
+.input2
+{ width:478px;
+  height:24px;
+  border:1px #CCCCCC solid;
+  background:url(images/select-bg.jpg) repeat-x left top #FFFFFF;
+  font-size:14px;
+  color:#666666;
+  line-height:24px;
+  padding-left:10px;
+}
+.marginlef60
+{ margin-left:60px;
+}
+.paddinglef35
+{ padding-left:35px;
+}
+.marleft22{
+	margin-left:22px;
+	}
+.marleft5{
+	margin-left:5px;}
+.marright40{
+	margin-right:40px;}	
+
+#content
+{ width:964px; clear:both;
+  
+  margin:0 auto;
+  padding:37px 18px 0px 18px;
+}
+#content-left
+{ width:210px;
+  float:left;
+} 
+#content-right
+{ width:730px;
+  float:right;
+}
+
+
+
+#footer
+{ width:100%;
+  float: left;
+  background:url(images/footer-bg.jpg) repeat-x left top;
+  height:65px;
+  margin-top:36px;
+}
+.footer-in
+{ width:930px;
+line-height:20px;
+  margin:0 auto;
+  color:#999999;
+   padding:12px 35px 0 35px; 
+	font-size:12px;
+}
+.footer-in a
+{ font-size:12px; 
+  color:#999999;
+  text-decoration:none;
+}
+.footer-in a:hover
+{ color:#FFFFFF;
+}
