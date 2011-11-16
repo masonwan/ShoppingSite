@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ShoppingSite.Controllers
 {
-    public class SignupController : Controller
+	public class SignupController : BaseController
     {
         public ActionResult Index()
         {

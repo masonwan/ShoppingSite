@@ -296,7 +296,7 @@ select {
 
 
 .img-right {
-	background: url(images/img-right.jpg) no-repeat 534px 37px;
+	/* background: url(images/img-right.jpg) no-repeat 534px 37px; */
 	min-height: 480px;
 }
 .gray-box {

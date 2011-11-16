@@ -65,11 +65,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\SaleController.cs" />
     <Compile Include="Controllers\SignupController.cs" />
+    <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -121,6 +124,61 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\arrow-red.jpg" />
+    <Content Include="Content\images\bg-error.png" />
+    <Content Include="Content\images\bg-gray-smll-bot.jpg" />
+    <Content Include="Content\images\bg-gray-smll.jpg" />
+    <Content Include="Content\images\bg-white-bottom.png" />
+    <Content Include="Content\images\bg-white-middle.png" />
+    <Content Include="Content\images\bg-white-top.png" />
+    <Content Include="Content\images\bill-address.png" />
+    <Content Include="Content\images\boys.png" />
+    <Content Include="Content\images\btn-search.png" />
+    <Content Include="Content\images\continue.png" />
+    <Content Include="Content\images\dont-have-acc.gif" />
+    <Content Include="Content\images\footer-bg.jpg" />
+    <Content Include="Content\images\gen-info.png" />
+    <Content Include="Content\images\girls.png" />
+    <Content Include="Content\images\gray-box-bottom.jpg" />
+    <Content Include="Content\images\gray-box-middle.jpg" />
+    <Content Include="Content\images\gray-box-top.jpg" />
+    <Content Include="Content\images\header-bg.jpg" />
+    <Content Include="Content\images\home.png" />
+    <Content Include="Content\images\i-have-acc.png" />
+    <Content Include="Content\images\icone2.png" />
+    <Content Include="Content\images\img-left-smll.jpg" />
+    <Content Include="Content\images\img-right.jpg" />
+    <Content Include="Content\images\input1-bg.jpg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\main-bg.jpg" />
+    <Content Include="Content\images\main-in.jpg" />
+    <Content Include="Content\images\means.png" />
+    <Content Include="Content\images\or.jpg" />
+    <Content Include="Content\images\pay-info.png" />
+    <Content Include="Content\images\pic1.jpg" />
+    <Content Include="Content\images\pic2.jpg" />
+    <Content Include="Content\images\pic2.png" />
+    <Content Include="Content\images\pic3.jpg" />
+    <Content Include="Content\images\place-order.png" />
+    <Content Include="Content\images\sale.png" />
+    <Content Include="Content\images\search-icone.png" />
+    <Content Include="Content\images\select-bg.jpg" />
+    <Content Include="Content\images\ship-address.png" />
+    <Content Include="Content\images\shirt1.jpg" />
+    <Content Include="Content\images\shirt2.jpg" />
+    <Content Include="Content\images\shirt3.jpg" />
+    <Content Include="Content\images\shirt4.jpg" />
+    <Content Include="Content\images\shirt5.jpg" />
+    <Content Include="Content\images\shirt6.jpg" />
+    <Content Include="Content\images\shirt7.jpg" />
+    <Content Include="Content\images\shirt8.jpg" />
+    <Content Include="Content\images\shirts.jpg" />
+    <Content Include="Content\images\signin.png" />
+    <Content Include="Content\images\user-acc-info.png" />
+    <Content Include="Content\images\womens.png" />
+    <Content Include="Content\js\html5.js" />
+    <Content Include="Content\js\html5shiv.googlecode.com svn trunk html5.js" />
+    <Content Include="Content\js\ie8.js" />
     <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -208,6 +266,8 @@
     <Content Include="Views\Signup\Index.cshtml" />
     <Content Include="Views\Department\Index.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Store\Index.cshtml" />
+    <Content Include="Views\Sale\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

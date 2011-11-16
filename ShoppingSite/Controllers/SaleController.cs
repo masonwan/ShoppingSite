@@ -6,11 +6,12 @@ using System.Web.Mvc;
 
 namespace ShoppingSite.Controllers
 {
-	public class CartController : BaseController
-	{
-		public ActionResult Index()
-		{
-			return View();
-		}
-	}
+	public class SaleController : BaseController
+    {
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+    }
 }

@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ShoppingSite.Controllers
 {
-    public class DepartmentController : Controller
+	public class DepartmentController : BaseController
     {
         public ActionResult Index()
         {
