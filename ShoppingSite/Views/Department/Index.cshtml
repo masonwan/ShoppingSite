@@ -1,6 +1,10 @@
-﻿@{
+﻿@using ShoppingSite.Models;
+@using System.Web.Mvc.Html;
+@{
 	ViewBag.Title = "Department";
-	Layout = "~/Views/Shared/_Layout.cshtml";
+
+	var categories = ViewBag.Categories as IEnumerable<Category>;
+	var categoryId = (int)ViewBag.CategoryId;
 }
 <div id="content">
 	<aside class="white-box-top">
@@ -11,12 +15,12 @@
 				<h1>
 					Shop By Category</h1>
 				<ul>
-					<li><a href="#">Suits</a></li>
-					<li><a href="#" class="current">Shirts</a></li>
-					<li><a href="#">Shoes</a></li>
-					<li><a href="#">Jeans</a></li>
-					<li><a href="#">Hoodies</a></li>
-					<li><a href="#">Sweatshirts</a></li>
+				@foreach (var category in categories)
+				{
+					<li>
+						<a href="@Url.Action("Index", new { CategoryId = category.Id })"@(category.Id == categoryId ? Html.Raw(" class=\"current\"") : Html.Raw(""))>@category.Name</a>
+					</li>
+				}
 				</ul>
 			</aside>
 			<img src="@Url.Content("~/Content/images/bg-gray-smll-bot.jpg")" class="left clear">

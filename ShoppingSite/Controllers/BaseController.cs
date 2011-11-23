@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ShoppingSite.Models;
+using System.Net;
 
 namespace ShoppingSite.Controllers
 {
@@ -16,5 +17,19 @@ namespace ShoppingSite.Controllers
 			DB.Dispose();
 			base.Dispose(disposing);
 		}
+
+		protected override void OnException(ExceptionContext filterContext)
+		{
+			if (Request.IsAjaxRequest())
+			{
+				filterContext.ExceptionHandled = true;
+				Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+				filterContext.Result = Json(new { error = filterContext.Exception.Message }, JsonRequestBehavior.AllowGet);
+			}
+
+			base.OnException(filterContext);
+		}
+
+		public int MyProperty { get; set; }
 	}
 }
