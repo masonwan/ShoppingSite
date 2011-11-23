@@ -1,0 +1,2271 @@
+<?xml version="1.0"?>
+<ArrayOfStoreInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StoreInfo>
+    <Name>Albany</Name>
+    <Address>1057 Eastshore Hwy Albany, CA 94710</Address>
+    <Phone>(510) 982-0512</Phone>
+    <Location>
+      <lat>37.884581</lat>
+      <lng>-122.308017</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Alhambra</Name>
+    <Address>2120 W Main St Alhambra, CA 91801</Address>
+    <Phone>(626) 308-3290</Phone>
+    <Location>
+      <lat>34.091086</lat>
+      <lng>-118.147144</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Aliso Viejo</Name>
+    <Address>26932 La Paz Rd Aliso Viejo, CA 92656</Address>
+    <Phone>(949) 643-0337</Phone>
+    <Location>
+      <lat>33.571135</lat>
+      <lng>-117.705621</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Anaheim</Name>
+    <Address>101 S Euclid St Anaheim, CA 92802</Address>
+    <Phone>(714) 422-1120</Phone>
+    <Location>
+      <lat>33.8324184</lat>
+      <lng>-117.9416126</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Anaheim Hills</Name>
+    <Address>8148 E Santa Ana Canyon Rd Anaheim, CA 92808</Address>
+    <Phone>(714) 921-9091</Phone>
+    <Location>
+      <lat>33.8677213</lat>
+      <lng>-117.7473052</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Antioch Slatten Ranch</Name>
+    <Address>5769 Lone Tree Way Antioch, CA 94531</Address>
+    <Phone>(925) 752-0002</Phone>
+    <Location>
+      <lat>37.964559</lat>
+      <lng>-121.737796</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Apple Valley</Name>
+    <Address>19201 Bear Valley Rd Apple Valley, CA 92308</Address>
+    <Phone>(760) 247-4111</Phone>
+    <Location>
+      <lat>34.468974</lat>
+      <lng>-117.24352</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Apple Valley North SuperTarget</Name>
+    <Address>20288 US Hwy 18 Apple Valley, CA 92307</Address>
+    <Phone>(760) 240-7654</Phone>
+    <Location>
+      <lat>34.527494</lat>
+      <lng>-117.217659</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Atwater SuperTarget</Name>
+    <Address>1000 Commerce Ave Atwater, CA 95301</Address>
+    <Phone>(209) 357-4820</Phone>
+    <Location>
+      <lat>37.3421974</lat>
+      <lng>-120.6091341</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Auburn</Name>
+    <Address>2700 Bell Rd Auburn, CA 95603</Address>
+    <Phone>(530) 889-5650</Phone>
+    <Location>
+      <lat>38.9422944</lat>
+      <lng>-121.0957483</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Azusa</Name>
+    <Address>809 N Azusa Ave Azusa, CA 91702</Address>
+    <Phone>(626) 629-1121</Phone>
+    <Location>
+      <lat>34.1354808</lat>
+      <lng>-117.9075208</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Bakersfield Central</Name>
+    <Address>2901 Ming Ave Bakersfield, CA 93304</Address>
+    <Phone>(661) 617-2000</Phone>
+    <Location>
+      <lat>35.3384147</lat>
+      <lng>-119.0361199</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Bakersfield NE</Name>
+    <Address>3401 Mall View Rd Bakersfield, CA 93306</Address>
+    <Phone>(661) 872-9929</Phone>
+    <Location>
+      <lat>35.394718</lat>
+      <lng>-118.955605</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Bakersfield NW</Name>
+    <Address>9100 Rosedale Hwy Bakersfield, CA 93312</Address>
+    <Phone>(661) 589-0554</Phone>
+    <Location>
+      <lat>35.385061</lat>
+      <lng>-119.103272</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Bakersfield West</Name>
+    <Address>11000 Stockdale Hwy Bakersfield, CA 93311</Address>
+    <Phone>(661) 617-3657</Phone>
+    <Location>
+      <lat>35.349898</lat>
+      <lng>-119.125287</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Baldwin Park</Name>
+    <Address>3100 Baldwin Park Blvd Baldwin Park, CA 91706</Address>
+    <Phone>(626) 851-9404</Phone>
+    <Location>
+      <lat>34.069772</lat>
+      <lng>-117.977181</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Brea</Name>
+    <Address>855 E Birch St Brea, CA 92821</Address>
+    <Phone>(714) 989-5013</Phone>
+    <Location>
+      <lat>33.9178932</lat>
+      <lng>-117.887668</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Buena Park</Name>
+    <Address>7530 Orangethorpe Ave Buena Park, CA 90621</Address>
+    <Phone>(714) 676-0013</Phone>
+    <Location>
+      <lat>33.857341</lat>
+      <lng>-118.00091</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Burbank</Name>
+    <Address>1800 W Empire Ave Burbank, CA 91504</Address>
+    <Phone>(818) 238-0132</Phone>
+    <Location>
+      <lat>34.1891193</lat>
+      <lng>-118.3306815</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Camarillo</Name>
+    <Address>209 W Ventura Blvd Camarillo, CA 93010</Address>
+    <Phone>(805) 384-0040</Phone>
+    <Location>
+      <lat>34.217268</lat>
+      <lng>-119.072667</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Los Angeles Topanga</Name>
+    <Address>6700 Topanga Canyon Blvd Canoga Park, CA 91303</Address>
+    <Phone>(818) 746-9922</Phone>
+    <Location>
+      <lat>34.1930052</lat>
+      <lng>-118.6059043</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Carson</Name>
+    <Address>651 W Sepulveda Blvd Carson, CA 90745</Address>
+    <Phone>(310) 507-0020</Phone>
+    <Location>
+      <lat>33.809454</lat>
+      <lng>-118.285983</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Carson North</Name>
+    <Address>20700 S Avalon Blvd Ste 750 Carson, CA 90746</Address>
+    <Phone>(310) 819-3011</Phone>
+    <Location>
+      <lat>33.842913</lat>
+      <lng>-118.2627538</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Palm Springs</Name>
+    <Address>67750 E Palm Canyon Dr Cathedral City, CA 92234</Address>
+    <Phone>(760) 321-7425</Phone>
+    <Location>
+      <lat>33.787553</lat>
+      <lng>-116.480209</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Cerritos</Name>
+    <Address>20200 Bloomfield Ave Cerritos, CA 90703</Address>
+    <Phone>(562) 860-9909</Phone>
+    <Location>
+      <lat>33.847128</lat>
+      <lng>-118.062211</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Cerritos West</Name>
+    <Address>11525 South St Cerritos, CA 90703</Address>
+    <Phone>(562) 274-0063</Phone>
+    <Location>
+      <lat>33.859429</lat>
+      <lng>-118.087842</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Chico</Name>
+    <Address>1951 E 20th St Chico, CA 95928</Address>
+    <Phone>(530) 343-3770</Phone>
+    <Location>
+      <lat>39.7271856</lat>
+      <lng>-121.80323</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Chino</Name>
+    <Address>5555 Philadelphia St Chino, CA 91710</Address>
+    <Phone>(909) 627-8433</Phone>
+    <Location>
+      <lat>34.032761</lat>
+      <lng>-117.682047</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Chino Hills</Name>
+    <Address>3944 Grand Ave Chino, CA 91710</Address>
+    <Phone>(909) 465-5804</Phone>
+    <Location>
+      <lat>34.001487</lat>
+      <lng>-117.718767</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Chula Vista Broadway</Name>
+    <Address>1240 Broadway Chula Vista, CA 91911</Address>
+    <Phone>(619) 425-3850</Phone>
+    <Location>
+      <lat>32.604545</lat>
+      <lng>-117.080529</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Chula Vista East</Name>
+    <Address>910 Eastlake Pkwy Chula Vista, CA 91914</Address>
+    <Phone>(619) 213-1010</Phone>
+    <Location>
+      <lat>32.6504</lat>
+      <lng>-116.96765</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Chula Vista North 4th</Name>
+    <Address>40 N 4th Ave Chula Vista, CA 91910</Address>
+    <Phone>(619) 425-5120</Phone>
+    <Location>
+      <lat>32.6514044</lat>
+      <lng>-117.0883129</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Birdcage-Citrus Heights</Name>
+    <Address>5837 Sunrise Blvd Citrus Heights, CA 95610</Address>
+    <Phone>(916) 966-5267</Phone>
+    <Location>
+      <lat>38.672631</lat>
+      <lng>-121.273851</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Clovis</Name>
+    <Address>900 Shaw Ave Clovis, CA 93612</Address>
+    <Phone>(559) 297-4691</Phone>
+    <Location>
+      <lat>36.807187</lat>
+      <lng>-119.698803</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Clovis NW</Name>
+    <Address>695 W Herndon Ave Clovis, CA 93612</Address>
+    <Phone>(559) 321-0009</Phone>
+    <Location>
+      <lat>36.8374283</lat>
+      <lng>-119.7026239</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Colma</Name>
+    <Address>5001 Junipero Serra Blvd Colma, CA 94014</Address>
+    <Phone>(650) 992-8433</Phone>
+    <Location>
+      <lat>37.673285</lat>
+      <lng>-122.464701</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Compton-Rancho Dom</Name>
+    <Address>1621 S Alameda St Compton, CA 90220</Address>
+    <Phone>(310) 735-0096</Phone>
+    <Location>
+      <lat>33.8795689</lat>
+      <lng>-118.219525</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Corona</Name>
+    <Address>2615 Tuscanny St Corona, CA 92881</Address>
+    <Phone>(951) 277-3075</Phone>
+    <Location>
+      <lat>33.8264349</lat>
+      <lng>-117.516156</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Costa Mesa</Name>
+    <Address>3030 Harbor Blvd Ste A Costa Mesa, CA 92626</Address>
+    <Phone>(714) 979-0372</Phone>
+    <Location>
+      <lat>33.683107</lat>
+      <lng>-117.917173</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Culver City</Name>
+    <Address>10820 Jefferson Blvd Culver City, CA 90230</Address>
+    <Phone>(310) 839-5200</Phone>
+    <Location>
+      <lat>33.999139</lat>
+      <lng>-118.3938985</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Culver City South</Name>
+    <Address>6000 Sepulveda Blvd Culver City, CA 90230</Address>
+    <Phone>(310) 754-4614</Phone>
+    <Location>
+      <lat>33.985787</lat>
+      <lng>-118.394938</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Cupertino</Name>
+    <Address>20745 Stevens Creek Blvd Cupertino, CA 95014</Address>
+    <Phone>(408) 725-2651</Phone>
+    <Location>
+      <lat>37.324188</lat>
+      <lng>-122.036144</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Cypress</Name>
+    <Address>6835 Katella Ave Cypress, CA 90630</Address>
+    <Phone>(714) 220-2000</Phone>
+    <Location>
+      <lat>33.803919</lat>
+      <lng>-118.013144</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Daly City Serramonte</Name>
+    <Address>133 Serramonte Ctr Daly City, CA 94015</Address>
+    <Phone>(650) 755-2393</Phone>
+    <Location>
+      <lat>37.670076</lat>
+      <lng>-122.472829</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Davis</Name>
+    <Address>4601 2nd St Davis, CA 95618</Address>
+    <Phone>(530) 761-0126</Phone>
+    <Location>
+      <lat>38.5565885</lat>
+      <lng>-121.6943168</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Diamond Bar</Name>
+    <Address>747 Grand Ave Diamond Bar, CA 91765</Address>
+    <Phone>(909) 610-2149</Phone>
+    <Location>
+      <lat>34.004595</lat>
+      <lng>-117.821532</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Duarte</Name>
+    <Address>1050 Huntington Dr Duarte, CA 91010</Address>
+    <Phone>(626) 303-8858</Phone>
+    <Location>
+      <lat>34.137514</lat>
+      <lng>-117.98307</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Dublin</Name>
+    <Address>7200 Amador Plaza Rd Dublin, CA 94568</Address>
+    <Phone>(925) 829-8900</Phone>
+    <Location>
+      <lat>37.7074768</lat>
+      <lng>-121.9296029</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Dublin East</Name>
+    <Address>2800 Dublin Blvd Dublin, CA 94568</Address>
+    <Phone>(925) 241-1042</Phone>
+    <Location>
+      <lat>37.7055189</lat>
+      <lng>-121.8733787</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Eastvale</Name>
+    <Address>12471 Limonite Ave Eastvale, CA 91752</Address>
+    <Phone>(951) 256-5261</Phone>
+    <Location>
+      <lat>33.975182</lat>
+      <lng>-117.551479</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>El Cajon</Name>
+    <Address>250 Broadway El Cajon, CA 92021</Address>
+    <Phone>(619) 442-9641</Phone>
+    <Location>
+      <lat>32.809662</lat>
+      <lng>-116.959378</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Rancho San Diego</Name>
+    <Address>2911 Jamacha Rd El Cajon, CA 92019</Address>
+    <Phone>(619) 660-2948</Phone>
+    <Location>
+      <lat>32.738585</lat>
+      <lng>-116.938921</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>El Centro</Name>
+    <Address>2295 N Imperial Ave El Centro, CA 92243</Address>
+    <Phone>(760) 482-5400</Phone>
+    <Location>
+      <lat>32.8200007</lat>
+      <lng>-115.569745</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>El Dorado Hills</Name>
+    <Address>4400 Town Center Blvd El Dorado Hills, CA 95762</Address>
+    <Phone>(916) 605-0184</Phone>
+    <Location>
+      <lat>38.650054</lat>
+      <lng>-121.062413</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Elk Grove</Name>
+    <Address>7505 Laguna Blvd Elk Grove, CA 95758</Address>
+    <Phone>(916) 683-5356</Phone>
+    <Location>
+      <lat>38.426429</lat>
+      <lng>-121.415577</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Oakland-Emeryville</Name>
+    <Address>1555 40th Street Emeryville, CA 94608</Address>
+    <Phone>(510) 285-0559</Phone>
+    <Location>
+      <lat>37.8285481</lat>
+      <lng>-122.2893119</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Encinitas</Name>
+    <Address>1010 N El Camino Real Encinitas, CA 92024</Address>
+    <Phone>(760) 633-1406</Phone>
+    <Location>
+      <lat>33.0631709</lat>
+      <lng>-117.264914</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Escondido</Name>
+    <Address>1280 Auto Park Way Escondido, CA 92029</Address>
+    <Phone>(760) 489-6119</Phone>
+    <Location>
+      <lat>33.113575</lat>
+      <lng>-117.099795</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Eureka</Name>
+    <Address>2525 4th St Eureka, CA 95501</Address>
+    <Phone>(707) 442-0201</Phone>
+    <Location>
+      <lat>40.805565</lat>
+      <lng>-124.144249</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fairfield</Name>
+    <Address>2059 Cadenasso Dr Fairfield, CA 94533</Address>
+    <Phone>(707) 426-1105</Phone>
+    <Location>
+      <lat>38.246448</lat>
+      <lng>-122.068764</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Folsom</Name>
+    <Address>430 Blue Ravine Rd Folsom, CA 95630</Address>
+    <Phone>(916) 984-9131</Phone>
+    <Location>
+      <lat>38.671454</lat>
+      <lng>-121.152721</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fontana</Name>
+    <Address>16964 Slover Ave Fontana, CA 92337</Address>
+    <Phone>(909) 356-4242</Phone>
+    <Location>
+      <lat>34.064884</lat>
+      <lng>-117.434256</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fontana North</Name>
+    <Address>15272 Summit Ave Fontana, CA 92336</Address>
+    <Phone>(909) 463-9872</Phone>
+    <Location>
+      <lat>34.152223</lat>
+      <lng>-117.472438</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Foothill Ranch</Name>
+    <Address>26762 Portola Pkwy Foothill Ranch, CA 92610</Address>
+    <Phone>(949) 454-2360</Phone>
+    <Location>
+      <lat>33.676558</lat>
+      <lng>-117.664111</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fremont Hub</Name>
+    <Address>39201 Fremont Blvd Fremont, CA 94538</Address>
+    <Phone>(510) 795-6305</Phone>
+    <Location>
+      <lat>37.54351</lat>
+      <lng>-121.985051</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fresno Central</Name>
+    <Address>5740 N Blackstone Ave Fresno, CA 93710</Address>
+    <Phone>(559) 431-8622</Phone>
+    <Location>
+      <lat>36.8215822</lat>
+      <lng>-119.7882435</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fresno North</Name>
+    <Address>7600 N Blackstone Ave Fresno, CA 93720</Address>
+    <Phone>(559) 431-0104</Phone>
+    <Location>
+      <lat>36.847189</lat>
+      <lng>-119.787099</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fresno South</Name>
+    <Address>3173 E Shields Ave Fresno, CA 93726</Address>
+    <Phone>(559) 228-8471</Phone>
+    <Location>
+      <lat>36.78054</lat>
+      <lng>-119.771072</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fresno West</Name>
+    <Address>3150 W Shaw Ave Fresno, CA 93711</Address>
+    <Phone>(559) 275-7059</Phone>
+    <Location>
+      <lat>36.8084926</lat>
+      <lng>-119.8491561</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fullerton</Name>
+    <Address>2920 Yorba Linda Blvd Fullerton, CA 92831</Address>
+    <Phone>(714) 579-3090</Phone>
+    <Location>
+      <lat>33.888027</lat>
+      <lng>-117.87696</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Fullerton South</Name>
+    <Address>200 W Orangethorpe Ave Fullerton, CA 92832</Address>
+    <Phone>(714) 992-4565</Phone>
+    <Location>
+      <lat>33.8592647</lat>
+      <lng>-117.9269802</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>West Fullerton</Name>
+    <Address>1893 W Malvern Ave Fullerton, CA 92833</Address>
+    <Phone>(714) 278-1024</Phone>
+    <Location>
+      <lat>33.8772827</lat>
+      <lng>-117.9621881</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Brookhurst</Name>
+    <Address>13831 Brookhurst St Garden Grove, CA 92843</Address>
+    <Phone>(714) 534-2142</Phone>
+    <Location>
+      <lat>33.7621687</lat>
+      <lng>-117.9546161</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Garden Grove Harbor</Name>
+    <Address>12100 Harbor Blvd Garden Grove, CA 92840</Address>
+    <Phone>(714) 971-4826</Phone>
+    <Location>
+      <lat>33.78787</lat>
+      <lng>-117.913257</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Gardena</Name>
+    <Address>2169 W Redondo Beach Blvd Gardena, CA 90247</Address>
+    <Phone>(310) 327-0762</Phone>
+    <Location>
+      <lat>33.8864317</lat>
+      <lng>-118.3155829</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Gilroy</Name>
+    <Address>6705 Camino Arroyo Gilroy, CA 95020</Address>
+    <Phone>(408) 848-6466</Phone>
+    <Location>
+      <lat>37.00029</lat>
+      <lng>-121.554703</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Glendale</Name>
+    <Address>2195 Glendale Galleria Glendale, CA 91210</Address>
+    <Phone>(818) 334-1400</Phone>
+    <Location>
+      <lat>34.1456693</lat>
+      <lng>-118.2566823</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Granada Hills</Name>
+    <Address>11133 Balboa Blvd Granada Hills, CA 91344</Address>
+    <Phone>(818) 360-2999</Phone>
+    <Location>
+      <lat>34.2728194</lat>
+      <lng>-118.5021855</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Hanford</Name>
+    <Address>140 N 12th Ave Hanford, CA 93230</Address>
+    <Phone>(559) 582-9298</Phone>
+    <Location>
+      <lat>36.323642</lat>
+      <lng>-119.675733</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Hawthorne</Name>
+    <Address>2700 W 120th St Hawthorne, CA 90250</Address>
+    <Phone>(323) 492-1000</Phone>
+    <Location>
+      <lat>33.922448</lat>
+      <lng>-118.321489</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Hayward</Name>
+    <Address>2499 Whipple Rd Hayward, CA 94544</Address>
+    <Phone>(510) 471-9166</Phone>
+    <Location>
+      <lat>37.6073774</lat>
+      <lng>-122.0649645</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Hayward North</Name>
+    <Address>19661 Hesperian Blvd Hayward, CA 94541</Address>
+    <Phone>(510) 731-0001</Phone>
+    <Location>
+      <lat>37.6673469</lat>
+      <lng>-122.1193889</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Hemet</Name>
+    <Address>3527 W Florida Ave Hemet, CA 92545</Address>
+    <Phone>(951) 652-9585</Phone>
+    <Location>
+      <lat>33.74579</lat>
+      <lng>-117.008902</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Hesperia SuperTarget</Name>
+    <Address>12795 Main St Hesperia, CA 92345</Address>
+    <Phone>(760) 949-3062</Phone>
+    <Location>
+      <lat>34.4265742</lat>
+      <lng>-117.3856579</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Hollister</Name>
+    <Address>1790 Airline Hwy Hollister, CA 95023</Address>
+    <Phone>(831) 636-3722</Phone>
+    <Location>
+      <lat>36.835429</lat>
+      <lng>-121.389601</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Huntington Beach East</Name>
+    <Address>9882 Adams Ave Huntington Beach, CA 92646</Address>
+    <Phone>(714) 849-1814</Phone>
+    <Location>
+      <lat>33.671068</lat>
+      <lng>-117.955656</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Indio SuperTarget</Name>
+    <Address>42625 Jackson St Indio, CA 92203</Address>
+    <Phone>(760) 863-3600</Phone>
+    <Location>
+      <lat>33.739439</lat>
+      <lng>-116.217699</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Inglewood</Name>
+    <Address>3471 W Century Blvd Inglewood, CA 90303</Address>
+    <Phone>(310) 677-2436</Phone>
+    <Location>
+      <lat>33.9456462</lat>
+      <lng>-118.3324242</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Irvine</Name>
+    <Address>3750 Barranca Pkwy Irvine, CA 92606</Address>
+    <Phone>(949) 857-8337</Phone>
+    <Location>
+      <lat>33.685327</lat>
+      <lng>-117.812502</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Irvine North</Name>
+    <Address>13200 Jamboree Rd Irvine, CA 92602</Address>
+    <Phone>(714) 838-1209</Phone>
+    <Location>
+      <lat>33.727159</lat>
+      <lng>-117.785153</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Irvine Spectrum</Name>
+    <Address>115 Fortune Dr Irvine, CA 92618</Address>
+    <Phone>(949) 885-0114</Phone>
+    <Location>
+      <lat>33.6488835</lat>
+      <lng>-117.7449077</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>La Habra</Name>
+    <Address>1000 W Imperial Hwy La Habra, CA 90631</Address>
+    <Phone>(714) 459-6034</Phone>
+    <Location>
+      <lat>33.915961</lat>
+      <lng>-117.9576</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Grossmont</Name>
+    <Address>5500 Grossmont Ctr Dr La Mesa, CA 91942</Address>
+    <Phone>(619) 461-1960</Phone>
+    <Location>
+      <lat>32.779644</lat>
+      <lng>-117.010081</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>La Quinta</Name>
+    <Address>78935 US Hwy 111 La Quinta, CA 92253</Address>
+    <Phone>(760) 564-0492</Phone>
+    <Location>
+      <lat>33.687327</lat>
+      <lng>-116.180848</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Laverne</Name>
+    <Address>2462 Foothill Blvd La Verne, CA 91750</Address>
+    <Phone>(909) 593-2421</Phone>
+    <Location>
+      <lat>34.109746</lat>
+      <lng>-117.759573</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Lake Elsinore</Name>
+    <Address>18287 Collier Ave Lake Elsinore, CA 92530</Address>
+    <Phone>(951) 674-2620</Phone>
+    <Location>
+      <lat>33.689188</lat>
+      <lng>-117.342216</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Lakewood Center Mall</Name>
+    <Address>141 Lakewood Center Mall Lakewood, CA 90712</Address>
+    <Phone>(562) 894-0019</Phone>
+    <Location>
+      <lat>33.852585</lat>
+      <lng>-118.140517</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Lancaster</Name>
+    <Address>43525 10th St W Lancaster, CA 93534</Address>
+    <Phone>(661) 949-8584</Phone>
+    <Location>
+      <lat>34.673546</lat>
+      <lng>-118.149089</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Lathrop</Name>
+    <Address>16858 Golden Valley Pkwy Lathrop, CA 95330</Address>
+    <Phone>(209) 242-5041</Phone>
+    <Location>
+      <lat>37.8038849</lat>
+      <lng>-121.3008091</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Lincoln</Name>
+    <Address>950 Groveland LN Lincoln, CA 95648</Address>
+    <Phone>(916) 251-3002</Phone>
+    <Location>
+      <lat>38.8703011</lat>
+      <lng>-121.3024908</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Livermore</Name>
+    <Address>4300 Las Positas Rd Livermore, CA 94551</Address>
+    <Phone>(925) 606-1445</Phone>
+    <Location>
+      <lat>37.70115</lat>
+      <lng>-121.746354</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Lodi</Name>
+    <Address>2355 W Kettleman Ln Lodi, CA 95242</Address>
+    <Phone>(209) 369-9371</Phone>
+    <Location>
+      <lat>38.1154223</lat>
+      <lng>-121.3038033</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Long Beach Bellflower</Name>
+    <Address>2270 N Bellflower Blvd Long Beach, CA 90815</Address>
+    <Phone>(562) 493-5411</Phone>
+    <Location>
+      <lat>33.7983724</lat>
+      <lng>-118.1250983</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Long Beach NW</Name>
+    <Address>6750 Cherry Ave Long Beach, CA 90805</Address>
+    <Phone>(562) 295-2971</Phone>
+    <Location>
+      <lat>33.877324</lat>
+      <lng>-118.166187</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Commerce</Name>
+    <Address>5600 Whittier Blvd Los Angeles, CA 90022</Address>
+    <Phone>(323) 725-1121</Phone>
+    <Location>
+      <lat>34.017946</lat>
+      <lng>-118.150348</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Los Angeles</Name>
+    <Address>3535 S La Cienega Blvd Los Angeles, CA 90016</Address>
+    <Phone>(310) 895-1131</Phone>
+    <Location>
+      <lat>34.0235132</lat>
+      <lng>-118.3724263</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Los Angeles Eagle Rock</Name>
+    <Address>2626 Colorado Blvd Los Angeles, CA 90041</Address>
+    <Phone>(323) 258-1355</Phone>
+    <Location>
+      <lat>34.141333</lat>
+      <lng>-118.224033</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Los Banos</Name>
+    <Address>1405 W Pacheco Blvd Los Banos, CA 93635</Address>
+    <Phone>(209) 827-2080</Phone>
+    <Location>
+      <lat>37.0543929</lat>
+      <lng>-120.8735301</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Manhattan Beach</Name>
+    <Address>1200 N Sepulveda Blvd Manhattan Beach, CA 90266</Address>
+    <Phone>(310) 546-5601</Phone>
+    <Location>
+      <lat>33.888399</lat>
+      <lng>-118.394744</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Manteca</Name>
+    <Address>280 Spreckels Ave Manteca, CA 95336</Address>
+    <Phone>(209) 823-9982</Phone>
+    <Location>
+      <lat>37.795028</lat>
+      <lng>-121.196787</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Marina</Name>
+    <Address>133 General Stilwell Dr Marina, CA 93933</Address>
+    <Phone>(831) 883-5720</Phone>
+    <Location>
+      <lat>36.6661602</lat>
+      <lng>-121.8103292</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Menifee SuperTarget</Name>
+    <Address>30340 Haun Rd Menifee, CA 92584</Address>
+    <Phone>(951) 723-6151</Phone>
+    <Location>
+      <lat>33.6804344</lat>
+      <lng>-117.1755361</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Merced</Name>
+    <Address>3280 R St Merced, CA 95348</Address>
+    <Phone>(209) 725-3482</Phone>
+    <Location>
+      <lat>37.322855</lat>
+      <lng>-120.4868327</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Mission Viejo</Name>
+    <Address>24500 Alicia Pkwy Mission Viejo, CA 92691</Address>
+    <Phone>(949) 583-1298</Phone>
+    <Location>
+      <lat>33.606428</lat>
+      <lng>-117.688524</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Mission Viejo N</Name>
+    <Address>25601 Jeronimo Rd Mission Viejo, CA 92691</Address>
+    <Phone>(949) 680-1064</Phone>
+    <Location>
+      <lat>33.6215868</lat>
+      <lng>-117.6822951</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Modesto</Name>
+    <Address>3405 Mchenry Ave Modesto, CA 95350</Address>
+    <Phone>(209) 572-3341</Phone>
+    <Location>
+      <lat>37.687499</lat>
+      <lng>-120.995907</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Modesto NW</Name>
+    <Address>3900 Sisk Rd Modesto, CA 95356</Address>
+    <Phone>(209) 543-9561</Phone>
+    <Location>
+      <lat>37.6954806</lat>
+      <lng>-121.0654184</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Montclair</Name>
+    <Address>9052 Central Ave Montclair, CA 91763</Address>
+    <Phone>(909) 624-5717</Phone>
+    <Location>
+      <lat>34.089657</lat>
+      <lng>-117.69095</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Moorpark</Name>
+    <Address>800 New Los Angeles Ave Moorpark, CA 93021</Address>
+    <Phone>(805) 530-0028</Phone>
+    <Location>
+      <lat>34.278678</lat>
+      <lng>-118.867471</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Moreno Valley East SuperTarget</Name>
+    <Address>27100 Eucalyptus Ave Moreno Valley, CA 92555</Address>
+    <Phone>(951) 571-8014</Phone>
+    <Location>
+      <lat>33.937712</lat>
+      <lng>-117.189572</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Morgan Hill</Name>
+    <Address>1061 Cochrane Rd Morgan Hill, CA 95037</Address>
+    <Phone>(408) 310-4050</Phone>
+    <Location>
+      <lat>37.157385</lat>
+      <lng>-121.65353</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Mountain View</Name>
+    <Address>555 Showers Dr Mountain View, CA 94040</Address>
+    <Phone>(650) 965-7764</Phone>
+    <Location>
+      <lat>37.401247</lat>
+      <lng>-122.10631</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Murrieta</Name>
+    <Address>41040 California Oaks Rd Murrieta, CA 92562</Address>
+    <Phone>(951) 696-7527</Phone>
+    <Location>
+      <lat>33.567611</lat>
+      <lng>-117.2055591</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Murrieta North SuperTarget</Name>
+    <Address>27818 Clinton Keith Rd Murrieta, CA 92562</Address>
+    <Phone>(951) 704-1123</Phone>
+    <Location>
+      <lat>33.5988594</lat>
+      <lng>-117.1762611</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Napa</Name>
+    <Address>205 Soscol Ave Napa, CA 94559</Address>
+    <Phone>(707) 224-1058</Phone>
+    <Location>
+      <lat>38.28217</lat>
+      <lng>-122.276636</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Napa North</Name>
+    <Address>4000 Bel Aire Plaza Napa, CA 94558</Address>
+    <Phone>(707) 225-3016</Phone>
+    <Location>
+      <lat>38.322476</lat>
+      <lng>-122.307814</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Natl Cty Pl Bonita</Name>
+    <Address>3060 Plaza Bonita Rd National City, CA 91950</Address>
+    <Phone>(619) 791-2749</Phone>
+    <Location>
+      <lat>32.656434</lat>
+      <lng>-117.067702</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Newpark Mall</Name>
+    <Address>400 Newpark Mall Newark, CA 94560</Address>
+    <Phone>(510) 744-1790</Phone>
+    <Location>
+      <lat>37.5282128</lat>
+      <lng>-122.0021173</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Norco</Name>
+    <Address>1290 Hamner Ave Norco, CA 92860</Address>
+    <Phone>(951) 371-1872</Phone>
+    <Location>
+      <lat>33.901123</lat>
+      <lng>-117.564336</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>North Hollywood</Name>
+    <Address>11051 Victory Blvd North Hollywood, CA 91606</Address>
+    <Phone>(818) 761-3083</Phone>
+    <Location>
+      <lat>34.188175</lat>
+      <lng>-118.371391</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Northridge</Name>
+    <Address>8840 Corbin Ave Northridge, CA 91324</Address>
+    <Phone>(818) 772-0494</Phone>
+    <Location>
+      <lat>34.230976</lat>
+      <lng>-118.560743</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Northridge</Name>
+    <Address>8999 Balboa Blvd Northridge, CA 91325</Address>
+    <Phone>(818) 924-9001</Phone>
+    <Location>
+      <lat>34.234506</lat>
+      <lng>-118.503477</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Norwalk</Name>
+    <Address>10600 Firestone Blvd Norwalk, CA 90650</Address>
+    <Phone>(562) 406-8870</Phone>
+    <Location>
+      <lat>33.925627</lat>
+      <lng>-118.107089</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Norwalk East</Name>
+    <Address>12051 Imperial Hwy Norwalk, CA 90650</Address>
+    <Phone>(562) 409-5036</Phone>
+    <Location>
+      <lat>33.918142</lat>
+      <lng>-118.075635</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Novato</Name>
+    <Address>200 Vintage Way Novato, CA 94945</Address>
+    <Phone>(415) 892-3313</Phone>
+    <Location>
+      <lat>38.09012</lat>
+      <lng>-122.553556</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Oceanside</Name>
+    <Address>2255 S El Camino Real Oceanside, CA 92054</Address>
+    <Phone>(760) 967-8335</Phone>
+    <Location>
+      <lat>33.1850229</lat>
+      <lng>-117.3279933</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Ontario</Name>
+    <Address>4200 E 4th St Ontario, CA 91764</Address>
+    <Phone>(909) 579-3040</Phone>
+    <Location>
+      <lat>34.0770189</lat>
+      <lng>-117.5625581</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Orange</Name>
+    <Address>2191 N Tustin St Orange, CA 92865</Address>
+    <Phone>(714) 974-2800</Phone>
+    <Location>
+      <lat>33.824513</lat>
+      <lng>-117.834715</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Oxnard West</Name>
+    <Address>2850 N OXNARD BLVD Oxnard West, CA 93036</Address>
+    <Phone>(805) 288-3642</Phone>
+    <Location>
+      <lat>34.2306287</lat>
+      <lng>-119.1787459</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Pacoima</Name>
+    <Address>9725 Laurel Canyon Blvd Pacoima, CA 91331</Address>
+    <Phone>(818) 896-8214</Phone>
+    <Location>
+      <lat>34.244872</lat>
+      <lng>-118.418789</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Palm Desert</Name>
+    <Address>72549 Highway 111 Palm Desert, CA 92260</Address>
+    <Phone>(760) 341-9307</Phone>
+    <Location>
+      <lat>33.7239859</lat>
+      <lng>-116.40297</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Palmdale</Name>
+    <Address>39440 10th St W Palmdale, CA 93551</Address>
+    <Phone>(661) 265-0906</Phone>
+    <Location>
+      <lat>34.599264</lat>
+      <lng>-118.146305</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Palmdale East SuperTarget</Name>
+    <Address>38019 47Th St E Palmdale, CA 93552</Address>
+    <Phone>(661) 998-2500</Phone>
+    <Location>
+      <lat>34.5777447</lat>
+      <lng>-118.0451644</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Pasadena</Name>
+    <Address>777 E Colorado Blvd Pasadena, CA 91101</Address>
+    <Phone>(626) 584-1606</Phone>
+    <Location>
+      <lat>34.146842</lat>
+      <lng>-118.13455</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Pasadena East</Name>
+    <Address>3121 E Colorado Blvd Pasadena, CA 91107</Address>
+    <Phone>(626) 584-2931</Phone>
+    <Location>
+      <lat>34.146938</lat>
+      <lng>-118.08418</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Paso Robles</Name>
+    <Address>2305 Theatre Dr Paso Robles, CA 93446</Address>
+    <Phone>(805) 227-0105</Phone>
+    <Location>
+      <lat>35.5844379</lat>
+      <lng>-120.6967777</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Pico Rivera</Name>
+    <Address>8800 Whittier Blvd Pico Rivera, CA 90660</Address>
+    <Phone>(562) 949-6200</Phone>
+    <Location>
+      <lat>34.001211</lat>
+      <lng>-118.084448</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Pinole</Name>
+    <Address>1400 Fitzgerald Dr Pinole, CA 94564</Address>
+    <Phone>(510) 222-0558</Phone>
+    <Location>
+      <lat>37.987868</lat>
+      <lng>-122.309337</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Pittsburg</Name>
+    <Address>4301 Century Blvd Pittsburg, CA 94565</Address>
+    <Phone>(925) 778-8950</Phone>
+    <Location>
+      <lat>38.0066076</lat>
+      <lng>-121.8414883</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Pleasant Hill</Name>
+    <Address>560 Contra Costa Blvd Pleasant Hill, CA 94523</Address>
+    <Phone>(925) 685-6069</Phone>
+    <Location>
+      <lat>37.9625791</lat>
+      <lng>-122.0619543</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Porterville</Name>
+    <Address>1363 W Henderson Ave Porterville, CA 93257</Address>
+    <Phone>(559) 719-2203</Phone>
+    <Location>
+      <lat>36.078313</lat>
+      <lng>-119.047286</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Poway</Name>
+    <Address>14823 Pomerado Rd Poway, CA 92064</Address>
+    <Phone>(858) 679-8202</Phone>
+    <Location>
+      <lat>32.9811428</lat>
+      <lng>-117.0623476</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Rancho Cordova</Name>
+    <Address>10880 Olson Dr Rancho Cordova, CA 95670</Address>
+    <Phone>(916) 503-2512</Phone>
+    <Location>
+      <lat>38.594024</lat>
+      <lng>-121.2848037</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Rancho Cucamonga</Name>
+    <Address>10576 Foothill Blvd Rancho Cucamonga, CA 91730</Address>
+    <Phone>(909) 948-9952</Phone>
+    <Location>
+      <lat>34.108566</lat>
+      <lng>-117.573968</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Rancho Santa Margarita</Name>
+    <Address>30602 Santa Margarita Pkwy Rancho Santa Margarita, CA 92688</Address>
+    <Phone>(949) 459-1543</Phone>
+    <Location>
+      <lat>33.641964</lat>
+      <lng>-117.597796</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Redding</Name>
+    <Address>1280 Dana Dr Redding, CA 96003</Address>
+    <Phone>(530) 223-0123</Phone>
+    <Location>
+      <lat>40.586639</lat>
+      <lng>-122.348818</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Redlands</Name>
+    <Address>27320 W Lugonia Ave Redlands, CA 92374</Address>
+    <Phone>(909) 307-1602</Phone>
+    <Location>
+      <lat>34.07121</lat>
+      <lng>-117.207196</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Redondo Beach</Name>
+    <Address>1601 Kingsdale Ave Redondo Beach, CA 90278</Address>
+    <Phone>(310) 750-0003</Phone>
+    <Location>
+      <lat>33.868827</lat>
+      <lng>-118.357585</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Redwood City</Name>
+    <Address>2485 El Camino Real Redwood City, CA 94063</Address>
+    <Phone>(650) 363-8940</Phone>
+    <Location>
+      <lat>37.475287</lat>
+      <lng>-122.217679</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Richmond</Name>
+    <Address>4500 Macdonald Ave Richmond, CA 94805</Address>
+    <Phone>(510) 253-1000</Phone>
+    <Location>
+      <lat>37.9324208</lat>
+      <lng>-122.3280017</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Riverbank</Name>
+    <Address>2425 Claribel Rd Riverbank, CA 95367</Address>
+    <Phone>(209) 863-1270</Phone>
+    <Location>
+      <lat>37.713275</lat>
+      <lng>-120.952716</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Riverside</Name>
+    <Address>3520 Tyler St Riverside, CA 92503</Address>
+    <Phone>(951) 351-8271</Phone>
+    <Location>
+      <lat>33.9072063</lat>
+      <lng>-117.4578631</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Riverside Arlington</Name>
+    <Address>3333 Arlington Ave Riverside, CA 92506</Address>
+    <Phone>(951) 784-6430</Phone>
+    <Location>
+      <lat>33.9464739</lat>
+      <lng>-117.3827806</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Riverside SE</Name>
+    <Address>2755 Canyon Springs Pkwy Riverside, CA 92507</Address>
+    <Phone>(951) 697-6778</Phone>
+    <Location>
+      <lat>33.9387208</lat>
+      <lng>-117.2821603</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Rohnert Park</Name>
+    <Address>475 Rohnert Park Expy W Rohnert Park, CA 94928</Address>
+    <Phone>(707) 586-2901</Phone>
+    <Location>
+      <lat>38.346875</lat>
+      <lng>-122.720327</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Rosemead</Name>
+    <Address>3600 Rosemead Blvd Rosemead, CA 91770</Address>
+    <Phone>(626) 280-8024</Phone>
+    <Location>
+      <lat>34.0741124</lat>
+      <lng>-118.0729364</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Roseville</Name>
+    <Address>1925 Douglas Blvd Roseville, CA 95661</Address>
+    <Phone>(916) 786-8787</Phone>
+    <Location>
+      <lat>38.745716</lat>
+      <lng>-121.254001</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Roseville North</Name>
+    <Address>10451 Fairway Dr Roseville, CA 95678</Address>
+    <Phone>(916) 780-1020</Phone>
+    <Location>
+      <lat>38.7908479</lat>
+      <lng>-121.289778</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Puente Hills</Name>
+    <Address>17751 Colima Rd Rowland Heights, CA 91748</Address>
+    <Phone>(626) 913-2880</Phone>
+    <Location>
+      <lat>33.991562</lat>
+      <lng>-117.918644</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sacramento Arden</Name>
+    <Address>1919 Fulton Ave Sacramento, CA 95825</Address>
+    <Phone>(916) 483-6093</Phone>
+    <Location>
+      <lat>38.6006606</lat>
+      <lng>-121.4033781</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sacramento East</Name>
+    <Address>6507 4th Ave Sacramento, CA 95817</Address>
+    <Phone>(916) 503-3678</Phone>
+    <Location>
+      <lat>38.549224</lat>
+      <lng>-121.426481</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sacramento Madison</Name>
+    <Address>5001 Madison Ave Sacramento, CA 95841</Address>
+    <Phone>(916) 348-3701</Phone>
+    <Location>
+      <lat>38.661791</lat>
+      <lng>-121.349125</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sacramento Natomas</Name>
+    <Address>3601 N Freeway Blvd Sacramento, CA 95834</Address>
+    <Phone>(916) 576-0487</Phone>
+    <Location>
+      <lat>38.640769</lat>
+      <lng>-121.498669</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sacramento Riverside</Name>
+    <Address>2505 Riverside Blvd Sacramento, CA 95818</Address>
+    <Phone>(916) 444-0993</Phone>
+    <Location>
+      <lat>38.562685</lat>
+      <lng>-121.4970445</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sacramento SW</Name>
+    <Address>8101 Cosumnes River Blvd Sacramento, CA 95823</Address>
+    <Phone>(916) 525-3576</Phone>
+    <Location>
+      <lat>38.458529</lat>
+      <lng>-121.413871</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Salinas</Name>
+    <Address>1640 N Main St Salinas, CA 93906</Address>
+    <Phone>(831) 442-0547</Phone>
+    <Location>
+      <lat>36.7127579</lat>
+      <lng>-121.6523789</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Orange Show</Name>
+    <Address>499 W Orange Show Rd San Bernardino, CA 92408</Address>
+    <Phone>(909) 381-3391</Phone>
+    <Location>
+      <lat>34.0794583</lat>
+      <lng>-117.2927947</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Bernardino</Name>
+    <Address>2380 Sterling Ave San Bernardino, CA 92404</Address>
+    <Phone>(909) 881-2671</Phone>
+    <Location>
+      <lat>34.137803</lat>
+      <lng>-117.245152</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Tanforan</Name>
+    <Address>1150 El Camino Real San Bruno, CA 94066</Address>
+    <Phone>(650) 827-0171</Phone>
+    <Location>
+      <lat>37.6358529</lat>
+      <lng>-122.4188443</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Clemente</Name>
+    <Address>990 Avenida Vista Hermosa San Clemente, CA 92673</Address>
+    <Phone>(949) 456-8668</Phone>
+    <Location>
+      <lat>33.4542388</lat>
+      <lng>-117.6200152</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Balboa</Name>
+    <Address>5680 Balboa Ave San Diego, CA 92111</Address>
+    <Phone>(858) 309-6564</Phone>
+    <Location>
+      <lat>32.8202432</lat>
+      <lng>-117.1802584</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Kearny Mesa</Name>
+    <Address>8001 Othello Ave San Diego, CA 92111</Address>
+    <Phone>(858) 576-1570</Phone>
+    <Location>
+      <lat>32.816268</lat>
+      <lng>-117.150296</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Lemon Grove</Name>
+    <Address>3424 College Ave San Diego, CA 92115</Address>
+    <Phone>(619) 471-0025</Phone>
+    <Location>
+      <lat>32.741007</lat>
+      <lng>-117.055583</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Mira Mesa</Name>
+    <Address>8251 Mira Mesa Blvd San Diego, CA 92126</Address>
+    <Phone>(858) 530-1901</Phone>
+    <Location>
+      <lat>32.9110609</lat>
+      <lng>-117.146022</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Diego Mission Valley</Name>
+    <Address>1288 Camino Del Rio N San Diego, CA 92108</Address>
+    <Phone>(619) 542-0025</Phone>
+    <Location>
+      <lat>32.7676274</lat>
+      <lng>-117.1507306</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sports Arena</Name>
+    <Address>3245 Sports Arena Blvd San Diego, CA 92110</Address>
+    <Phone>(619) 223-2491</Phone>
+    <Location>
+      <lat>32.752092</lat>
+      <lng>-117.212443</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Dimas</Name>
+    <Address>888 W Arrow Hwy San Dimas, CA 91773</Address>
+    <Phone>(909) 394-0335</Phone>
+    <Location>
+      <lat>34.103639</lat>
+      <lng>-117.823369</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose Capitol</Name>
+    <Address>450 N Capital Ave San Jose, CA 95133</Address>
+    <Phone>(408) 254-8931</Phone>
+    <Location>
+      <lat>37.3207944</lat>
+      <lng>-121.935655</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose Central</Name>
+    <Address>2161 Monterey Hwy San Jose, CA 95125</Address>
+    <Phone>(408) 660-1703</Phone>
+    <Location>
+      <lat>37.3047387</lat>
+      <lng>-121.8650025</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose College Park</Name>
+    <Address>533 Coleman Ave San Jose, CA 95110</Address>
+    <Phone>(408) 346-2022</Phone>
+    <Location>
+      <lat>37.3390569</lat>
+      <lng>-121.904461</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose East</Name>
+    <Address>3155 Silver Creek Rd San Jose, CA 95121</Address>
+    <Phone>(408) 238-7800</Phone>
+    <Location>
+      <lat>37.307802</lat>
+      <lng>-121.812577</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose Landess</Name>
+    <Address>2155 Morrill Ave San Jose, CA 95132</Address>
+    <Phone>(408) 946-6791</Phone>
+    <Location>
+      <lat>37.414218</lat>
+      <lng>-121.876175</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose North</Name>
+    <Address>95 Holger Way San Jose, CA 95134</Address>
+    <Phone>(408) 834-1527</Phone>
+    <Location>
+      <lat>37.4187569</lat>
+      <lng>-121.9548834</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose Oakridge</Name>
+    <Address>879 Blossom Hill Rd San Jose, CA 95123</Address>
+    <Phone>(408) 513-3002</Phone>
+    <Location>
+      <lat>37.252379</lat>
+      <lng>-121.860588</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose Story Road</Name>
+    <Address>1750 Story Rd San Jose, CA 95122</Address>
+    <Phone>(408) 273-0054</Phone>
+    <Location>
+      <lat>37.3405257</lat>
+      <lng>-121.8422219</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose West</Name>
+    <Address>1811 Hillsdale Ave San Jose, CA 95124</Address>
+    <Phone>(408) 267-7900</Phone>
+    <Location>
+      <lat>37.263278</lat>
+      <lng>-121.9177361</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Jose Westgate</Name>
+    <Address>1600 Saratoga Ave San Jose, CA 95129</Address>
+    <Phone>(408) 871-7984</Phone>
+    <Location>
+      <lat>37.291284</lat>
+      <lng>-121.989617</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Leandro Bayfair</Name>
+    <Address>15555 E 14th St Ste 400 San Leandro, CA 94578</Address>
+    <Phone>(510) 276-2699</Phone>
+    <Location>
+      <lat>37.6997218</lat>
+      <lng>-122.1272421</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Luis Obispo</Name>
+    <Address>11990 LOS OSOS VALLEY RD San Luis Obispo, CA 93405</Address>
+    <Phone>(805) 858-9902</Phone>
+    <Location>
+      <lat>35.2515082</lat>
+      <lng>-120.6865077</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Mateo Fashion Island</Name>
+    <Address>2220 Bridgepointe Pkwy San Mateo, CA 94404</Address>
+    <Phone>(650) 341-0734</Phone>
+    <Location>
+      <lat>37.5587226</lat>
+      <lng>-122.2835827</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Pedro</Name>
+    <Address>1701 N Gaffey St San Pedro, CA 90731</Address>
+    <Phone>(310) 507-6289</Phone>
+    <Location>
+      <lat>33.760097</lat>
+      <lng>-118.293876</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>San Ramon</Name>
+    <Address>2610 Bishop Dr San Ramon, CA 94583</Address>
+    <Phone>(925) 277-0202</Phone>
+    <Location>
+      <lat>37.7660201</lat>
+      <lng>-121.9687374</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sand City</Name>
+    <Address>2040 California Ave Sand City, CA 93955</Address>
+    <Phone>(831) 392-1990</Phone>
+    <Location>
+      <lat>36.620927</lat>
+      <lng>-121.843113</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santa Ana</Name>
+    <Address>1330 E 17th St Santa Ana, CA 92705</Address>
+    <Phone>(714) 541-4593</Phone>
+    <Location>
+      <lat>33.759</lat>
+      <lng>-117.850438</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santa Ana</Name>
+    <Address>3300 S Bristol St Santa Ana, CA 92704</Address>
+    <Phone>(714) 641-4944</Phone>
+    <Location>
+      <lat>33.702849</lat>
+      <lng>-117.887263</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santa Ana NW</Name>
+    <Address>1441 W 17th St Santa Ana, CA 92706</Address>
+    <Phone>(714) 481-0030</Phone>
+    <Location>
+      <lat>33.761498</lat>
+      <lng>-117.888022</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santa Clarita East</Name>
+    <Address>19105 Golden Valley Rd Santa Clarita, CA 91387</Address>
+    <Phone>(661) 977-5154</Phone>
+    <Location>
+      <lat>34.394236</lat>
+      <lng>-118.464421</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santa Fe Springs</Name>
+    <Address>10621 Carmenita Rd Santa Fe Springs, CA 90670</Address>
+    <Phone>(562) 946-0851</Phone>
+    <Location>
+      <lat>33.9386064</lat>
+      <lng>-118.0465918</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santa Maria</Name>
+    <Address>223 E Betteravia Rd Santa Maria, CA 93454</Address>
+    <Phone>(805) 922-9904</Phone>
+    <Location>
+      <lat>34.922655</lat>
+      <lng>-120.433748</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santa Rosa South</Name>
+    <Address>1980 Santa Rosa Ave Santa Rosa, CA 95407</Address>
+    <Phone>(707) 575-0665</Phone>
+    <Location>
+      <lat>38.4204082</lat>
+      <lng>-122.713481</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Santee</Name>
+    <Address>9846 Mission Gorge Rd Santee, CA 92071</Address>
+    <Phone>(619) 449-9790</Phone>
+    <Location>
+      <lat>32.84197</lat>
+      <lng>-116.982485</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Seal Beach</Name>
+    <Address>12300 Seal Beach Blvd Seal Beach, CA 90740</Address>
+    <Phone>(562) 596-9887</Phone>
+    <Location>
+      <lat>33.78316</lat>
+      <lng>-118.071549</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Signal Hill</Name>
+    <Address>950 E 33rd St Signal Hill, CA 90755</Address>
+    <Phone>(562) 427-7751</Phone>
+    <Location>
+      <lat>33.816821</lat>
+      <lng>-118.182195</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Simi Valley</Name>
+    <Address>2907 Cochran St Simi Valley, CA 93065</Address>
+    <Phone>(805) 583-8933</Phone>
+    <Location>
+      <lat>34.280566</lat>
+      <lng>-118.739525</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Simi Valley West</Name>
+    <Address>51 Tierra Rejada Rd Simi Valley, CA 93065</Address>
+    <Phone>(805) 416-5790</Phone>
+    <Location>
+      <lat>34.2734632</lat>
+      <lng>-118.7979641</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>South Gate</Name>
+    <Address>5700 Firestone Blvd South Gate, CA 90280</Address>
+    <Phone>(562) 806-2911</Phone>
+    <Location>
+      <lat>33.9483109</lat>
+      <lng>-118.167364</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Stockton</Name>
+    <Address>4707 Pacific Ave Stockton, CA 95207</Address>
+    <Phone>(209) 476-8081</Phone>
+    <Location>
+      <lat>37.991797</lat>
+      <lng>-121.314607</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Stockton North</Name>
+    <Address>10424 Trinity Parkway Stockton, CA 95219</Address>
+    <Phone>(209) 235-0251</Phone>
+    <Location>
+      <lat>38.051644</lat>
+      <lng>-121.372965</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Sunnyvale</Name>
+    <Address>298 W McKinley Ave Sunnyvale, CA 94086</Address>
+    <Phone>(408) 702-1012</Phone>
+    <Location>
+      <lat>37.373856</lat>
+      <lng>-122.0325382</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Rancho California</Name>
+    <Address>29676 Rancho California Rd Temecula, CA 92591</Address>
+    <Phone>(951) 676-2668</Phone>
+    <Location>
+      <lat>33.506297</lat>
+      <lng>-117.145988</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Thousand Oaks</Name>
+    <Address>2705 Teller Rd Thousand Oaks, CA 91320</Address>
+    <Phone>(805) 480-9114</Phone>
+    <Location>
+      <lat>34.1909717</lat>
+      <lng>-118.9342527</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Torrance</Name>
+    <Address>3433 Sepulveda Blvd Torrance, CA 90505</Address>
+    <Phone>(310) 214-1561</Phone>
+    <Location>
+      <lat>33.8250927</lat>
+      <lng>-118.3456564</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Tracy</Name>
+    <Address>2800 Naglee Rd Tracy, CA 95304</Address>
+    <Phone>(209) 833-3494</Phone>
+    <Location>
+      <lat>37.757531</lat>
+      <lng>-121.459637</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Tulare SuperTarget</Name>
+    <Address>2195 E Prosperity Ave Tulare, CA 93274</Address>
+    <Phone>(559) 631-1128</Phone>
+    <Location>
+      <lat>36.2257073</lat>
+      <lng>-119.3159798</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Turlock</Name>
+    <Address>3000 Countryside Dr Turlock, CA 95380</Address>
+    <Phone>(209) 632-0132</Phone>
+    <Location>
+      <lat>37.520525</lat>
+      <lng>-120.878747</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Tustin</Name>
+    <Address>2300 Park Ave Tustin, CA 92782</Address>
+    <Phone>(714) 361-2100</Phone>
+    <Location>
+      <lat>33.6988008</lat>
+      <lng>-117.8280849</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Upland</Name>
+    <Address>1931 Campus Ave Upland, CA 91784</Address>
+    <Phone>(909) 985-0348</Phone>
+    <Location>
+      <lat>34.13319</lat>
+      <lng>-117.640734</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Vacaville</Name>
+    <Address>3000 Harbison Dr Vacaville, CA 95687</Address>
+    <Phone>(707) 452-8053</Phone>
+    <Location>
+      <lat>38.361061</lat>
+      <lng>-121.961703</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Valencia</Name>
+    <Address>24425 Magic Mountain Pkwy Valencia, CA 91355</Address>
+    <Phone>(661) 254-8001</Phone>
+    <Location>
+      <lat>34.4208961</lat>
+      <lng>-118.5619194</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Vallejo</Name>
+    <Address>904 Admiral Callaghan Lane Vallejo, CA 94591</Address>
+    <Phone>(707) 642-0419</Phone>
+    <Location>
+      <lat>38.132053</lat>
+      <lng>-122.222686</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Van Nuys</Name>
+    <Address>5711 Sepulveda Blvd Van Nuys, CA 91411</Address>
+    <Phone>(818) 779-0163</Phone>
+    <Location>
+      <lat>34.1749843</lat>
+      <lng>-118.4663691</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Van Nuys North</Name>
+    <Address>14920 Raymer St Van Nuys, CA 91405</Address>
+    <Phone>(818) 922-1001</Phone>
+    <Location>
+      <lat>34.2132155</lat>
+      <lng>-118.4599458</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Ventura</Name>
+    <Address>4200 E Main St Ventura, CA 93003</Address>
+    <Phone>(805) 644-9871</Phone>
+    <Location>
+      <lat>34.261619</lat>
+      <lng>-119.236528</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Ventura West</Name>
+    <Address>245 S Mills Rd Ventura, CA 93003</Address>
+    <Phone>(805) 535-2752</Phone>
+    <Location>
+      <lat>34.269945</lat>
+      <lng>-119.24904</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Victorville</Name>
+    <Address>15321 Palmdale Rd Victorville, CA 92392</Address>
+    <Phone>(760) 241-3357</Phone>
+    <Location>
+      <lat>34.506084</lat>
+      <lng>-117.328608</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Visalia</Name>
+    <Address>4247 S Mooney Blvd Visalia, CA 93277</Address>
+    <Phone>(559) 749-0740</Phone>
+    <Location>
+      <lat>36.292159</lat>
+      <lng>-119.316333</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Visalia North</Name>
+    <Address>3308 N Dinuba Blvd Visalia, CA 93291</Address>
+    <Phone>(559) 302-1850</Phone>
+    <Location>
+      <lat>36.3591962</lat>
+      <lng>-119.2968416</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Vista</Name>
+    <Address>1751 University Dr Vista, CA 92083</Address>
+    <Phone>(760) 941-0220</Phone>
+    <Location>
+      <lat>33.1708601</lat>
+      <lng>-117.2215799</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Vista South</Name>
+    <Address>3150 Business Park Dr Vista, CA 92081</Address>
+    <Phone>(760) 208-6111</Phone>
+    <Location>
+      <lat>33.1356001</lat>
+      <lng>-117.2295305</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Walnut Creek</Name>
+    <Address>1871 N Main St Walnut Creek, CA 94596</Address>
+    <Phone>(925) 979-0083</Phone>
+    <Location>
+      <lat>37.9047623</lat>
+      <lng>-122.0635547</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Watsonville</Name>
+    <Address>1415 Main St Watsonville, CA 95076</Address>
+    <Phone>(831) 761-9194</Phone>
+    <Location>
+      <lat>36.9153341</lat>
+      <lng>-121.7744745</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>West Covina</Name>
+    <Address>2831 E Eastland Ctr Dr West Covina, CA 91791</Address>
+    <Phone>(626) 859-0221</Phone>
+    <Location>
+      <lat>34.0730135</lat>
+      <lng>-117.8838331</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>West Covina South</Name>
+    <Address>2370 S Azusa Ave West Covina, CA 91792</Address>
+    <Phone>(626) 667-5400</Phone>
+    <Location>
+      <lat>34.033482</lat>
+      <lng>-117.911373</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>West Hills</Name>
+    <Address>6635 Fallbrook Ave West Hills, CA 91307</Address>
+    <Phone>(818) 999-2390</Phone>
+    <Location>
+      <lat>34.190745</lat>
+      <lng>-118.626931</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>West Hollywood</Name>
+    <Address>7100 Santa Monica Blvd Ste 201 West Hollywood, CA 90046</Address>
+    <Phone>(323) 603-0004</Phone>
+    <Location>
+      <lat>34.0905707</lat>
+      <lng>-118.3445364</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>West Sacramento</Name>
+    <Address>2005 Town Center Plz West Sacramento, CA 95691</Address>
+    <Phone>(916) 384-0977</Phone>
+    <Location>
+      <lat>38.550719</lat>
+      <lng>-121.53544</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Westminster</Name>
+    <Address>16400 Beach Blvd Westminster, CA 92683</Address>
+    <Phone>(714) 841-4449</Phone>
+    <Location>
+      <lat>33.725541</lat>
+      <lng>-117.986254</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Westminster NW</Name>
+    <Address>200 Westminster Mall Westminster, CA 92683</Address>
+    <Phone>(714) 657-1351</Phone>
+    <Location>
+      <lat>33.745636</lat>
+      <lng>-118.012054</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Whittier</Name>
+    <Address>15614 Whittwood Ln Whittier, CA 90603</Address>
+    <Phone>(562) 371-9003</Phone>
+    <Location>
+      <lat>33.943191</lat>
+      <lng>-117.996118</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Woodland</Name>
+    <Address>2185 Bronze Star Dr Woodland, CA 95776</Address>
+    <Phone>(530) 665-4148</Phone>
+    <Location>
+      <lat>38.6699409</lat>
+      <lng>-121.7259571</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Woodland Hills</Name>
+    <Address>20801 Ventura Blvd Woodland Hills, CA 91364</Address>
+    <Phone>(818) 713-2707</Phone>
+    <Location>
+      <lat>34.1665597</lat>
+      <lng>-118.5859438</lng>
+    </Location>
+  </StoreInfo>
+  <StoreInfo>
+    <Name>Yuba City</Name>
+    <Address>1153 Butte House Rd Yuba City, CA 95991</Address>
+    <Phone>(530) 671-6881</Phone>
+    <Location>
+      <lat>39.146183</lat>
+      <lng>-121.632758</lng>
+    </Location>
+  </StoreInfo>
+</ArrayOfStoreInfo>
