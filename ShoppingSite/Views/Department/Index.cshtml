@@ -1,107 +1,58 @@
 ﻿@using ShoppingSite.Models;
-@using System.Web.Mvc.Html;
+@using ShoppingSite.Controllers;
+@model Department
 @{
-	ViewBag.Title = "Department";
+    ViewBag.Title = "Department";
 
-	var categories = ViewBag.Categories as IEnumerable<Category>;
-	var categoryId = (int)ViewBag.CategoryId;
+    var department = Model;
+    var categories = ViewBag.Categories as List<Category>;
+    var category = ViewBag.Category as Category;
+    var items = category.Items.Where(i => i.DepartmentId == department.Id);
+    var count = 0;
 }
 <div id="content">
-	<aside class="white-box-top">
-	</aside>
-	<aside class="white-box-middle">
-		<aside class="pro-left">
-			<aside class="gray-smll">
-				<h1>
-					Shop By Category</h1>
-				<ul>
-				@foreach (var category in categories)
-				{
-					<li>
-						<a href="@Url.Action("Index", new { CategoryId = category.Id })"@(category.Id == categoryId ? Html.Raw(" class=\"current\"") : Html.Raw(""))>@category.Name</a>
-					</li>
-				}
-				</ul>
-			</aside>
-			<img src="@Url.Content("~/Content/images/bg-gray-smll-bot.jpg")" class="left clear">
-			<img src="@Url.Content("~/Content/images/img-left-smll.jpg")" class="left clear">
-		</aside>
-		<aside class="pro-right">
-			<img src="@Url.Content("~/Content/images/shirts.jpg")">
-			<div class="clear">
-				&nbsp;</div>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt1.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong>$45</strong></h2>
-			</aside>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt2.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong class="line-through"><span>&nbsp;$45&nbsp; </span></strong>
-				</h2>
-				<aside class="discount">Discounted : <strong>$25</strong></aside>
-			</aside>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt3.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong class="line-through"><span>&nbsp;$45&nbsp; </span></strong>
-				</h2>
-				<aside class="discount">Discounted : <strong>$25</strong></aside>
-			</aside>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt4.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong>$45</strong></h2>
-			</aside>
-			<div class="clear">
-				<br>
-				<br>
-			</div>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt5.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong>$45</strong></h2>
-			</aside>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt6.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong>$45</strong></h2>
-			</aside>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt7.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong>$45</strong></h2>
-			</aside>
-			<aside class="pro-box">
-				<img src="@Url.Content("~/Content/images/shirt8.jpg")">
-				<h1>
-					Product Title</h1>
-				<h2>
-					Price: <strong class="line-through"><span>&nbsp;$45&nbsp; </span></strong>
-				</h2>
-				<aside class="discount">Discounted : <strong>$25</strong></aside>
-			</aside>
-			<div class="clear">
-				&nbsp;</div>
-		</aside>
-	</aside>
-	<aside class="white-box-bottom">
-	</aside>
-	<div class="clear">
-	</div>
+    <aside class="white-box-top">
+    </aside>
+    <aside class="white-box-middle">
+        @Html.Sidebar(Url, categories, department.Id, category.Id);
+        <aside class="pro-right">
+            <img alt="" src="@Url.Content("~/Content/images/shirts.jpg")" />
+            <div class="clear">
+            </div>
+            @foreach (var item in items)
+            {
+                <aside class="pro-box">
+                    <a href="@Url.Action("Index", "Item", new { ItemId = item.Id })">
+                        <img alt="" style="width:148px; height=148px;" src="@Url.GetItemImageUrl(item.Id)" />
+                        <h1>
+                            @item.Name</h1>
+                        @if (item.Discount.HasValue)
+                        {
+                            <h2>
+                                Price: <strong class="line-through"><span>&nbsp;@String.Format("{0:C}", item.Price)&nbsp; </span></strong>
+                            </h2>
+                            <aside class="discount">Discounted : <strong>@String.Format("{0:C}", item.Discount.Value)</strong></aside>
+                        }
+                        else
+                        {
+                            <h2>
+                                Price: <strong>@String.Format("{0:C}", item.Price)</strong></h2>
+                        }
+                    </a>
+                </aside>
+                
+                        if (++count % 4 == 0)
+                        {
+                <div class="clear">
+                    <br />
+                    <br />
+                </div>
+                        }
+            }
+        </aside>
+    </aside>
+    <aside class="white-box-bottom">
+    </aside>
+    <div class="clear">
+    </div>
 </div>

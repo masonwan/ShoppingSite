@@ -11,7 +11,7 @@ namespace ShoppingSite.Controllers
 	{
 		public ActionResult Index()
 		{
-			return View();
+			return View(DB.Stores.ToList());
 		}
 
 		[HttpGet]

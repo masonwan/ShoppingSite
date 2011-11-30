@@ -1,3 +1,4 @@
+
 body, html, div, p {
 	margin: 0px;
 	padding: 0px;
@@ -5,6 +6,7 @@ body, html, div, p {
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background: url(images/main-bg.jpg);
+	font-size: 13px;
 }
 #container {
 	width: 100%;
@@ -38,6 +40,15 @@ a {
 }
 img {
 	border: none;
+}
+.absmiddle {
+	vertical-align: middle;
+}
+.txt-aln-r {
+	text-align: right;
+}
+.txt-aln-l {
+	text-align: left;
 }
 .logo {
 	width: 267px;
@@ -89,7 +100,7 @@ img {
 #navgation {
 	width: 1000px;
 	float: left;
-	margin-top: 16px;
+	margin-top: 17px;
 	margin-top: 18px;
 }
 #navgation ul {
@@ -259,7 +270,43 @@ select {
 	color: #FFFFFF;
 }
 
+.red {
+	color: #731216;
+}
 
+.width60 {
+	width: 60px;
+}
+.width95 {
+	width: 95px;
+}
+.width160 {
+	width: 160px;
+}
+.width165 {
+	width: 165px;
+}
+.width235 {
+	width: 235px;
+}
+.width330 {
+	width: 330px;
+}
+.width360 {
+	width: 360px;
+}
+.width130 {
+	width: 130px;
+}
+.width165 {
+	width: 165px;
+}
+.width300 {
+	width: 300px;
+}
+.width580 {
+	width: 585px;
+}
 
 .txt11 {
 	font-size: 11px;
@@ -267,10 +314,14 @@ select {
 .txt12 {
 	font-size: 12px;
 }
-
-.width235 {
-	width: 235px;
+.txt14 {
+	font-size: 14px;
 }
+.txt17 {
+	font-size: 17px;
+}
+
+
 
 .mart-5 {
 	margin-top: 5px;
@@ -281,8 +332,14 @@ select {
 .mart-15 {
 	margin-top: 15px;
 }
+.marl-10 {
+	margin-left: 10px;
+}
 .marl-30 {
 	margin-left: 30px;
+}
+.marl-40 {
+	margin-left: 40px;
 }
 .marlr-10 {
 	margin: 0 10px;
@@ -294,9 +351,18 @@ select {
 	margin-right: 135px;
 }
 
+.padr-10 {
+	padding-right: 10px;
+}
+.padr-30 {
+	padding-right: 30px;
+}
+.padl-20 {
+	padding-left: 27px;
+}
 
 .img-right {
-	/* background: url(images/img-right.jpg) no-repeat 534px 37px; */
+	background: url(images/img-right.jpg) no-repeat 534px 37px;
 	min-height: 480px;
 }
 .gray-box {
@@ -358,6 +424,24 @@ select {
 	background: url(images/bg-error.png) no-repeat;
 	font-size: 12px;
 	margin-top: 2px;
+}
+.dont-acc {
+	width: 180px;
+	height: 70px;
+	padding: 100px 25px 0 25px;
+	float: left;
+	margin-left: 30px;
+	background: url(images/dont-have-acc.gif);
+}
+.dont-acc a {
+	width: 180px;
+	height: 48px;
+	float: left;
+	background: url(images/chck-without-ac.png) no-repeat;
+	text-decoration: none;
+}
+.dont-acc a:hover {
+	background-position: 0 -48px;
 }
 .signup-box {
 	width: 355px;
@@ -458,6 +542,10 @@ select {
 	border: 1px solid #847C75;
 	float: left;
 }
+.pro-box img:hover {
+	border: 1px solid #990000;
+	float: left;
+}
 .pro-box h1 {
 	font-size: 16px;
 	float: left;
@@ -465,6 +553,15 @@ select {
 	margin: 0px;
 	padding: 7px 0 4px 2px;
 	font-weight: normal;
+}
+.pro-box a {
+	font-size: 16px;
+	float: left;
+	color: #731216;
+	text-decoration: none;
+}
+.pro-box a:hover {
+	color: #333;
 }
 .pro-box h2 {
 	font-size: 14px;
@@ -488,3 +585,242 @@ select {
 .line-through span {
 	color: #333;
 }
+.pro-view {
+	width: 250px;
+	float: left;
+	font-size: 13px;
+}
+.pro-view a {
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.pro-view a:hover {
+	color: #981F23;
+}
+.brdr {
+	border: 1px solid #847C75;
+}
+
+.input6 {
+	width: 50px;
+	height: 26px;
+	border: 1px #CCCCCC solid;
+	background: url(images/select-bg.jpg) repeat-x left top #FFFFFF;
+	font-size: 13px;
+	color: #333;
+	line-height: 24px;
+	padding: 2px;
+}
+
+.pro-info {
+	width: 400px;
+	float: left;
+	margin-left: 45px;
+}
+.pro-info h1 {
+	font-size: 19px;
+	font-weight: normal;
+	color: #000;
+	margin: 0px;
+	padding: 0 0 5px 0;
+}
+.pro-info h2 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+	margin: 0px;
+	padding: 0 0 4px 0;
+}
+.input7 {
+	width: 90px;
+	height: 26px;
+	border: 1px #CCCCCC solid;
+	background: url(images/select-bg.jpg) repeat-x left top #FFFFFF;
+	font-size: 13px;
+	color: #333;
+	line-height: 24px;
+	padding: 2px;
+	float: right;
+	margin-top: 5px;
+}
+
+.check-wrap {
+	width: 885px;
+	float: left;
+	padding: 10px 40px;
+}
+.check-head ul {
+	width: 880px;
+	float: left;
+	margin: 0px;
+	margin-left: 5px;
+	padding: 0px;
+}
+.check-head ul li {
+	width: 850px;
+	height: 30px;
+	float: left;
+	background: url(images/bg-check-head.jpg) repeat-x;
+	padding: 6px 15px 0 15px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	list-style: none;
+}
+.check-data ul {
+	width: 880px;
+	float: left;
+	margin: 0px;
+	margin-left: 5px;
+	padding: 0px;
+}
+.check-data ul li {
+	width: 850px;
+	float: left;
+	padding: 20px 15px 20px 15px;
+	font-size: 14px;
+	color: #333;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+}
+.check-data ul li a {
+	color: #003399;
+	font-size: 13px;
+}
+.check-data ul li a:hover {
+	color: #981F23;
+	text-decoration: none;
+}
+
+.loc-head ul {
+	width: 460px;
+	float: left;
+	margin: 0px;
+	margin-left: 5px;
+	padding: 0px;
+}
+.loc-head ul li {
+	width: 430px;
+	height: 30px;
+	float: left;
+	background: url(images/bg-check-head.jpg) repeat-x;
+	padding: 6px 15px 0 15px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	list-style: none;
+}
+
+.loc-info ul {
+	width: 460px;
+	float: left;
+	margin: 0px;
+	margin-left: 5px;
+	padding: 0px;
+}
+.loc-info ul li {
+	width: 430px;
+	float: left;
+	padding: 15px 15px 15px 15px;
+	font-size: 13px;
+	color: #333;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+}
+.loc-info ul li a {
+	color: #003399;
+	font-size: 12px;
+}
+.loc-info ul li a:hover {
+	color: #981F23;
+	text-decoration: none;
+}
+.parking {
+	width: 320px;
+	height: 23px;
+	float: left;
+	background: url(images/bg-parking.jpg) no-repeat;
+	padding: 5px 0 0 15px;
+	margin-top: 7px;
+}
+.parking img {
+	float: none;
+}
+.map {
+	padding: 3px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 40px;
+	width: 370px;
+	height: 323px;
+	margin-top: -36px;
+}
+
+
+/*start slider gallery css*/
+.container {
+	width: 730px;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+.slides {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.slides > div {
+	position: absolute;
+	top: 0;
+	width: 730px;
+	display: none;
+}
+/*
+		 * Optional
+		*/
+#loopedSlider, #newsSlider {
+	margin: 0 auto;
+	width: 730px;
+	position: relative;
+	clear: both;
+}
+ul.pagination {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+ul.pagination li {
+	float: left;
+	padding: 0 0 0 0px;
+}
+ul.pagination li a {
+	padding: 0px 4px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #721216;
+}
+ul.pagination li.active a {
+	background: #721216;
+	border: solid 1px #fff;
+	color: white;
+}
+.previous {
+	float: left;
+}
+
+.next {
+	float: right;
+}
+.pre-nxt {
+	width: 720px;
+	position: absolute;
+	margin-top: -280px;
+	padding: 0px 5px;
+}
+/*end slider gallery css*/

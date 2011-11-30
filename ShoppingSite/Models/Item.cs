@@ -26,7 +26,8 @@ namespace ShoppingSite.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public Nullable<int> Discount { get; set; }
+        public decimal Price { get; set; }
+        public Nullable<decimal> Discount { get; set; }
         public int DepartmentId { get; set; }
         public int CategoryId { get; set; }
     

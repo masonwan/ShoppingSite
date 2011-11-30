@@ -13,8 +13,27 @@
 <!--[if lt IE 9]>
   <link type="text/css" href="css/movingboxes-ie.css" rel="stylesheet" media="screen" />
   <![endif]-->
+  
+ <!-- start slider script -->
 
 
+    <script src="js/jquery-1.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/loopedslider.min.js" type="text/javascript" charset="utf-8"></script>
+    	
+    <script type="text/javascript" charset="utf-8">
+	$(function(){
+		// Option set as a global variable
+		$.fn.loopedSlider.defaults.addPagination = true;
+		
+		$('#loopedSlider').loopedSlider({
+			autoStart: 3500,
+			hoverPause: true
+		});
+	});
+</script>
+    
+    
+    <!-- end slider script -->
 
 </head>
 
@@ -23,7 +42,7 @@
 	
 	<header id="header">
 		<div id="header-in">
-        	<aside class="logo"><a href="index.html"><img src="images/logo.png" /></a></aside>
+        	<aside class="logo"><a href="#"><img src="images/logo.png" /></a></aside>
         
         <aside class="top-links margnleft342"><a href="login.html">Sign In</a><strong style="font-weight:normal; font-size:12px;">|</strong>    <a href="signup.html">Sign Up</a></aside>
         
@@ -35,19 +54,19 @@
 
 		<nav id="navgation">
     <ul>
-    <li><a class="home" href="index.html"></a></li>
-    <li><a class="means" href=""></a></li>
-    <li><a class="women" href=""></a></li>
-    <li><a class="boy" href=""></a></li>
-    <li><a class="girl" href=""></a></li>
-    <li><a class="sale" href=""></a></li>
+        <li><a class="home" href="index.html"></a></li>
+        <li><a class="means" href="products.html"></a></li>
+        <li><a class="women" href="products.html"></a></li>
+        <li><a class="boy" href="products.html"></a></li>
+        <li><a class="girl" href="products.html"></a></li>
+        <li><a class="sale" href="products.html"></a></li>
     </ul>
 </nav>
 <aside class="clear"></aside>
 	<nav id="nav-bot">
 
 <div class="right marright40">
-  <a href="#"><img src="images/icone2.png" hspace="2" align="absmiddle" />My Cart: <strong>2 Items</strong></a>
+  <a href="checkout.html"><img src="images/icone2.png" hspace="2" align="absmiddle" />My Cart: <strong>2 Items</strong></a>
 </div>  
   
           <select name="select" id="select" class="select1 left">
@@ -71,13 +90,30 @@
 	</header>
     
     <div id="content">
-    	<aside id="content-left"><img src="images/pic2.png" width="209" height="194" />
+    	<aside id="content-left"><a href="location.html"><img src="images/pic2.png" width="209" height="194" /></a>
 <img src="images/pic3.jpg" hspace="2" vspace="20" /></aside>
 
 		<aside id="content-right">
         	
-            	<img src="images/pic1.jpg" width="730" height="480" />
-                
+             <div id="loopedSlider">	
+	<div class="container">
+		<div class="slides">
+        
+        <div><img src="images/1.jpg" width="730" height="480" border="0" /></div>
+        
+           <div><img src="images/2.jpg" width="730" height="480" border="0" /></div>
+        
+           <div><img src="images/3.jpg" width="730" height="480" border="0" /></div>
+           
+              <div><img src="images/4.jpg" width="730" height="480" border="0" /></div>
+	  </div>
+	</div>
+    
+ <div class="pre-nxt">   
+	<a href="#" class="previous"><img src="images/btn_prev.png" width="32" height="32" border="0"></a>
+	<a href="#" class="next"><img src="images/btn_next.png" width="32" height="32" border="0"></a>   </div> 
+</div>
+         <aside class="clear"></aside>       
         </aside>
     
     
@@ -85,7 +121,7 @@
     
     <section id="footer">
 
-<div class="footer-in"><span class="right">Shopping.com © 2011</a></span><a href="#">Home</a> <strong style="font-size:12px; font-weight:normal;">|</strong> <a href="#">About Us</a><strong style="font-size:12px; font-weight:normal;"> |</strong> <a href="#">Contact Us</a> <strong style="font-size:12px; font-weight:normal;">|</strong> <a href="#">Terms of Service</a> <strong style="font-size:12px; font-weight:normal;">|</strong> <a href="#">Privacy Policy</a>
+<div class="footer-in"><span class="right">Shopping.com © 2011</a></span><a href="#">Home</a> <strong style="font-size:12px; font-weight:normal;">|</strong> <a href="#">About Us</a><strong style="font-size:12px; font-weight:normal;"> |</strong> <a href="location.html">Contact Us</a> <strong style="font-size:12px; font-weight:normal;">|</strong> <a href="#">Terms of Service</a> <strong style="font-size:12px; font-weight:normal;">|</strong> <a href="#">Privacy Policy</a>
 	
 	
     </div>
