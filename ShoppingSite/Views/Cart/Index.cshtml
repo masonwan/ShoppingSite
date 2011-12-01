@@ -24,6 +24,7 @@
                     </li>
                 </ul>
             </aside>
+            <form id="form" action="@Url.Action("RemoveItem")" method="delete">
             <aside class="check-data">
                 <ul>
                     @{
@@ -45,7 +46,7 @@
                                 <span class="left mart-10">@Html.Raw(item.Description.Replace("\\n", "<br />"))</span>
                                 <br />
                                 <br />
-                                <a href="#" class="left mart-10">Remove</a>
+                                <a href="@Url.Action("RemoveItem", new { ItemId = item.Id })" class="left mart-10">Remove</a>
                             </aside>
                             <aside class="width130 left">@String.Format("{0:C}", unitPrice)</aside>
                             <aside class="width130 left">
@@ -73,7 +74,9 @@
                             <span class="mart-15 right padr-10"><strong>Total:</strong></span>
                             <div class="clear">
                                 &nbsp;</div>
-                            <input type="image" src="@Url.GetImageUrl("cont-shop.jpg")" class="left mart-10">
+                            <a href="@Url.Action("Index", "Department")">
+                                <input type="image" src="@Url.GetImageUrl("cont-shop.jpg")" class="left mart-10" />
+                            </a>
                         </aside>
                         <aside class="width95 left marl-10">
                             <span class="padl-20">@String.Format("{0:C}", total)</span><br />
@@ -82,12 +85,13 @@
                             <span class="mart-15 left padl-20"><strong>@String.Format("{0:C}", overall)</strong></span>
                             <div class="clear">
                                 &nbsp;</div>
-                            <a href="place-order.html">
+                            <a href="@Url.Action("Payment")">
                                 <input type="image" src="@Url.GetImageUrl("checkout.jpg")" class="left mart-10" /></a>
                         </aside>
                     </li>
                 </ul>
             </aside>
+            </form>
             <div class="clear">
                 &nbsp;</div>
             <br />

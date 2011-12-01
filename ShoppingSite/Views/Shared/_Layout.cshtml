@@ -1,6 +1,8 @@
 ﻿@using ShoppingSite.Models;
+@using ShoppingSite.Controllers;
 @{
     var department = ViewBag.Department as Department;
+    var numItems = Helper.GetItemIdTable(Context).Count;
 }
 @functions 
 {    
@@ -63,7 +65,7 @@
                 <nav id="nav-bot">
                     <div class="right marright40">
                         <a href="@Url.Content("~/Cart")">
-                            <img alt="" src="@Url.Content("~/Content/images/icone2.png")" hspace="2" align="absmiddle" />My Cart: <strong>2 Items</strong></a>
+                            <img alt="" src="@Url.Content("~/Content/images/icone2.png")" hspace="2" align="absmiddle" />My Cart: <strong>@numItems item@(numItems >= 2 ? "s" : "")</strong></a>
                     </div>
                     <select name="select" id="select" class="select1 left">
                         <option selected="selected">Men</option>

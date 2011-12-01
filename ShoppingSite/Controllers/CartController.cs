@@ -10,11 +10,9 @@ namespace ShoppingSite.Controllers
 {
 	public class CartController : BaseController
 	{
-		const string ITEM_ID_TABLE = "ItemIdTable";
-
 		public ActionResult Index()
 		{
-			var itemIdTable = Session[ITEM_ID_TABLE] as Dictionary<int, int> ?? new Dictionary<int, int>();
+			var itemIdTable = Helper.GetItemIdTable(HttpContext);
 			var itemsTable = new Dictionary<Item, int>(itemIdTable.Count);
 
 			foreach (var pair in itemIdTable)
@@ -26,15 +24,21 @@ namespace ShoppingSite.Controllers
 			return View(itemsTable);
 		}
 
+		public ActionResult Payment()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public ActionResult SetOrder()
+		{
+			throw new NotImplementedException();
+		}
+
 		[HttpPost]
 		public ActionResult SetItems()
 		{
-			var itemIdTable = Session[ITEM_ID_TABLE] as Dictionary<int, int>;
-
-			if (itemIdTable == null)
-			{
-				itemIdTable = new Dictionary<int, int>();
-			}
+			var itemIdTable = Helper.GetItemIdTable(HttpContext);
 
 			var idText = Request.Form["ItemId"];
 			var qtyText = Request.Form["Quantity"];
@@ -48,7 +52,24 @@ namespace ShoppingSite.Controllers
 				}
 			}
 
-			Session[ITEM_ID_TABLE] = itemIdTable;
+			Helper.SetItemIdTable(HttpContext, itemIdTable);
+
+			return RedirectToAction("Index");
+		}
+
+		//[HttpDelete]
+		public ActionResult RemoveItem(int? itemId)
+		{
+			if (itemId != null)
+			{
+				var id = itemId.Value;
+				var itemIdTable = Helper.GetItemIdTable(HttpContext);
+
+				if (itemIdTable.ContainsKey(id))
+				{
+					itemIdTable.Remove(id);
+				}
+			}
 
 			return RedirectToAction("Index");
 		}
