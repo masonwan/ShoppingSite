@@ -23,7 +23,7 @@
             {
                 <aside class="pro-box">
                     <a href="@Url.Action("Index", "Item", new { ItemId = item.Id })">
-                        <img alt="" style="width:148px; height=148px;" src="@Url.GetItemImageUrl(item.Id)" />
+                        <img alt="" style="width:148px; height=148px;" src="@Url.GetItemImageUrl(item)" />
                         <h1>
                             @item.Name</h1>
                         @if (item.Discount.HasValue)

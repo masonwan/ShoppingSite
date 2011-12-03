@@ -1,16 +1,38 @@
-﻿@{
-	ViewBag.Title = "Home";
-	Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@using ShoppingSite.Controllers
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div id="content">
-	<aside id="content-left">
-		<a href="@Url.Content("~/Store")">
-			<img alt="" src="@Url.Content("~/Content/images/pic2.png")" width="209" height="194">
-		</a><a href="@Url.Content("~/Sale")">
-			<img alt="" src="@Url.Content("~/Content/images/pic3.jpg")" hspace="2" vspace="20">
-		</a>
-	</aside>
-	<aside id="content-right">
-		<img alt="" src="@Url.Content("~/Content/images/pic1.jpg")" width="730" height="480">
-	</aside>
+    <script src="@Url.Content("~/js/jquery-1.4.min.js")" type="text/javascript" charset="utf-8"></script>
+    <script src="@Url.Content("~/js/loopedslider.min.js")" type="text/javascript" charset="utf-8"></script>
+    <aside id="content-left">
+        <a href="@Url.Action("Index", "Store")">
+            <img alt="" src="@Url.GetImageUrl("pic2.png")" width="209" height="194" />
+        </a>
+        <img alt="" src="@Url.GetImageUrl("pic3.jpg")" hspace="2" vspace="20" />
+    </aside>
+    <aside id="content-right">
+        <div id="loopedSlider">
+            <div class="container">
+                <div class="slides">
+                    <div>
+                        <img alt="" src="@Url.GetImageUrl("1.jpg")" width="730" height="480" border="0" /></div>
+                    <div>
+                        <img alt="" src="@Url.GetImageUrl("2.jpg")" width="730" height="480" border="0" /></div>
+                    <div>
+                        <img alt="" src="@Url.GetImageUrl("3.jpg")" width="730" height="480" border="0" /></div>
+                    <div>
+                        <img alt="" src="@Url.GetImageUrl("4.jpg")" width="730" height="480" border="0" /></div>
+                </div>
+            </div>
+            <div class="pre-nxt">
+                <a href="#" class="previous">
+                    <img alt="" src="@Url.GetImageUrl("btn_prev.png")" width="32" height="32" border="0"></a> <a href="#" class="next">
+                        <img alt="" src="@Url.GetImageUrl("btn_next.png")" width="32" height="32" border="0"></a>
+            </div>
+        </div>
+        <aside class="clear">
+        </aside>
+    </aside>
 </div>

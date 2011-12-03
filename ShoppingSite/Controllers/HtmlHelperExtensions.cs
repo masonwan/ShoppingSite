@@ -17,9 +17,9 @@ namespace ShoppingSite.Controllers
 			return newUrl;
 		}
 
-		public static string GetItemImageUrl(this UrlHelper helper, int id)
+		public static string GetItemImageUrl(this UrlHelper helper, Item item)
 		{
-			return helper.Content(String.Format("~/Content/images/Items/{0}.jpg", id));
+			return helper.Content(String.Format("~/Content/Items/{0}.jpg", item.Pictures.First().Path));
 		}
 
 		public static MvcHtmlString Sidebar(this HtmlHelper htmlHelper, UrlHelper urlHelper, IEnumerable<Category> categories, int departmentId, int viewedCategoryId = -1)

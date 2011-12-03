@@ -7,10 +7,10 @@ using System.Web.Mvc;
 namespace ShoppingSite.Controllers
 {
 	public class HomeController : BaseController
-    {
-        public ActionResult Index()
-        {
-            return View();
-        }
-    }
+	{
+		public ActionResult Index()
+		{
+			return View();
+		}
+	}
 }
