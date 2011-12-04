@@ -4,8 +4,21 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div id="content">
-    <script src="@Url.Content("~/js/jquery-1.4.min.js")" type="text/javascript" charset="utf-8"></script>
-    <script src="@Url.Content("~/js/loopedslider.min.js")" type="text/javascript" charset="utf-8"></script>
+    <!-- start slider script -->
+    <script src="@Url.Content("~/Content/js/jquery-1.4.min.js")" type="text/javascript" charset="utf-8"></script>
+    <script src="@Url.Content("~/Content/js/loopedslider.min.js")" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function () {
+            // Option set as a global variable
+            $.fn.loopedSlider.defaults.addPagination = true;
+
+            $('#loopedSlider').loopedSlider({
+                autoStart: 3500,
+                hoverPause: true
+            });
+        });
+    </script>
+    <!-- end slider script -->
     <aside id="content-left">
         <a href="@Url.Action("Index", "Store")">
             <img alt="" src="@Url.GetImageUrl("pic2.png")" width="209" height="194" />
@@ -28,8 +41,8 @@
             </div>
             <div class="pre-nxt">
                 <a href="#" class="previous">
-                    <img alt="" src="@Url.GetImageUrl("btn_prev.png")" width="32" height="32" border="0"></a> <a href="#" class="next">
-                        <img alt="" src="@Url.GetImageUrl("btn_next.png")" width="32" height="32" border="0"></a>
+                    <img alt="" src="@Url.GetImageUrl("btn_prev.png")" width="32" height="32" border="0" /></a> <a href="#" class="next">
+                        <img alt="" src="@Url.GetImageUrl("btn_next.png")" width="32" height="32" border="0" /></a>
             </div>
         </div>
         <aside class="clear">

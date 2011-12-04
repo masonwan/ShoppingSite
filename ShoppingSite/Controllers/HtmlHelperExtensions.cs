@@ -10,6 +10,7 @@ namespace ShoppingSite.Controllers
 {
 	public static class HtmlHelperExtensions
 	{
+
 		public static string GetImageUrl(this UrlHelper helper, string filename)
 		{
 			var oldUrl = String.Format("~/Content/images/{0}", filename);

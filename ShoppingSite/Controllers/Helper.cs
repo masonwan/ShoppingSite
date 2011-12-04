@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using ShoppingSite.Controllers;
+using ShoppingSite.Models;
 
 namespace System.Web.Mvc
 {

@@ -1,0 +1,71 @@
+﻿@model ShoppingSite.Models.User
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>User</legend>
+
+    <div class="display-label">Email</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">Password</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Password)
+    </div>
+
+    <div class="display-label">Question</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Question)
+    </div>
+
+    <div class="display-label">Answer</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Answer)
+    </div>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">Birth</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Birth)
+    </div>
+
+    <div class="display-label">Street</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Street)
+    </div>
+
+    <div class="display-label">City</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">State</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State)
+    </div>
+
+    <div class="display-label">ZipCode</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ZipCode)
+    </div>
+
+    <div class="display-label">Country</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Country)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

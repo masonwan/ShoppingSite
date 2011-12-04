@@ -37,6 +37,17 @@
   <![endif]-->
 </head>
 <body>
+@{
+    var dictDebugInfo = ViewBag.DebugInfo as Dictionary<string, object>;
+
+    if (dictDebugInfo != null)
+    {
+        foreach (var key in dictDebugInfo.Keys)
+        {
+            Html.Encode(String.Format("<p>{0}:{1}</p>", key, dictDebugInfo[key]));
+        }
+    }
+}
     <section id="container">
         <header id="header">
             <div id="header-in">
@@ -67,15 +78,17 @@
                         <a href="@Url.Content("~/Cart")">
                             <img alt="" src="@Url.Content("~/Content/images/icone2.png")" hspace="2" align="absmiddle" />My Cart: <strong>@numItems item@(numItems >= 2 ? "s" : "")</strong></a>
                     </div>
-                    <select name="select" id="select" class="select1 left">
-                        <option selected="selected">Men</option>
+                    <form action="@Url.Action("Index", "Search")" method="post">
+                    <select name="Department" class="select1 left">
+                        <option selected>All</option>
+                        <option>Men</option>
                         <option>Women</option>
                         <option>Boys</option>
                         <option>Girls</option>
                     </select>
-                    <input class="input2 left marleft22" type="text" value="Search" name="email2" id="email2" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
-                    <a href="#" class="marleft5">
-                        <img alt="" src="@Url.Content("~/Content/images/btn-search.png")" /></a>
+                    <input class="input2 left marleft22" type="text" value="Search" name="Query" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
+                    <input id="search" type="image" src="@Url.Content("~/Content/images/btn-search.png")" />
+                    </form>
                 </nav>
             </div>
             <aside class="clear">

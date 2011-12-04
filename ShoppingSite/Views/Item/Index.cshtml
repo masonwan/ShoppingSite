@@ -12,24 +12,18 @@
     <aside class="white-box-middle">
         @Html.Sidebar(Url, categories, item.DepartmentId);
         <aside class="pro-right">
-            <img alt="" src="@Url.GetImageUrl("shirts.jpg")" />
-            <div class="clear">
-                &nbsp;</div>
-            <br />
             <aside class="pro-view">
                 <img alt="" src="@Url.GetItemImageUrl(item)" style="width:265px;" class="left brdr" />
                 <a href="#" class="left">
-                    <img alt="" src="@Url.GetImageUrl("ico-zoom.jpg")" align="absmiddle" />
-                    Roll to Zoom In</a> <a href="#" class="right">
-                        <img alt="" src="@Url.GetImageUrl("ico-view.jpg")" align="absmiddle" />
-                        View Enlarge</a>
+                    <img alt="" src="@Url.GetImageUrl("ico-view.jpg")" align="absmiddle" />
+                    View Enlarge</a>
                 <div class="clear">
                     &nbsp;</div>
                 <form id="form" action="@Url.Action("SetItems", "Cart")" method="post">
                 <p class="left">
                     <span class="mart-5 left">Qty:&nbsp;&nbsp;</span>
-                    <select name="Quantity" class="input6 left" form="form">
-                        <option>1</option>
+                    <select name="Quantity" class="input6 left">
+                        <option selected>1</option>
                         <option>2</option>
                         <option>3</option>
                         <option>4</option>
@@ -41,8 +35,8 @@
                     </select>
                 </p>
                 <p class="left marlr-10">
-                    <input type="submit" value="" style="background-image:url('@Url.GetImageUrl("add-cart.jpg")'); width:110px; height:28px;" /></p>
-                    <input type="hidden" name="ItemId" value="@item.Id" />
+                    <input type="image" value="" src="@Url.GetImageUrl("add-cart.jpg")" /></p>
+                <input type="hidden" name="ItemId" value="@item.Id" />
                 </form>
             </aside>
             <aside class="pro-info">

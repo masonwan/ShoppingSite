@@ -8,7 +8,6 @@
     var categories = ViewBag.Categories as List<Category>;
     var category = ViewBag.Category as Category;
     var items = category.Items.Where(i => i.DepartmentId == department.Id);
-    var count = 0;
 }
 <div id="content">
     <aside class="white-box-top">
@@ -16,14 +15,14 @@
     <aside class="white-box-middle">
         @Html.Sidebar(Url, categories, department.Id, category.Id)
         <aside class="pro-right">
-            <img alt="" src="@Url.Content("~/Content/images/shirts.jpg")" />
-            <div class="clear">
-            </div>
+            @{
+                var count = 0;  
+            }
             @foreach (var item in items)
             {
                 <aside class="pro-box">
                     <a href="@Url.Action("Index", "Item", new { ItemId = item.Id })">
-                        <img alt="" style="width:148px; height=148px;" src="@Url.GetItemImageUrl(item)" />
+                        <img alt="" style="width:148px;" src="@Url.GetItemImageUrl(item)" />
                         <h1>
                             @item.Name</h1>
                         @if (item.Discount.HasValue)

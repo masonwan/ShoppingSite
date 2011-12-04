@@ -1,0 +1,80 @@
+﻿@using ShoppingSite.Models
+@using ShoppingSite.Controllers
+@model IEnumerable<Item>
+@{
+    ViewBag.Title = "Index";
+    var items = Model;
+    var currentPage = (int)ViewBag.Page;
+    var query = ViewBag.Query as string;
+    var totalPages = (int)ViewBag.TotalPages;
+    var department = ViewBag.Department as Department;
+    var departmentSearched = ViewBag.DepartmentSearched;
+}
+<div id="content">
+    <aside class="white-box-top">
+    </aside>
+    <aside class="white-box-middle">
+        <aside class="check-wrap">
+            <aside class="clear">
+                <strong class="txt16 txt-gray left">You search for '@query'</strong>
+                <aside class="paging">
+                    @for (int p = 1; p <= totalPages; p++)
+                    {
+                        if (p == currentPage)
+                        {
+                        <a href="@Url.Action("Result", "Search", new { Query = query, Page = p, Department = departmentSearched })" class="activepage">@p</a>
+                        }
+                        else
+                        {
+                        <a href="@Url.Action("Result", "Search", new { Query = query, Page = p, Department = departmentSearched })">@p</a>
+                        }
+                    }
+                </aside>
+            </aside>
+            <div class="clear">
+            </div>
+            <br />
+            <br />
+            <div class="clear">
+                @{
+                    var count = 0;
+                }
+                @foreach (var item in items)
+                {
+                    <aside class="pro-box" style="width:144px;">
+                        <a href="@Url.Action("Index", "Item", new { ItemId = item.Id })">
+                            <img alt="" style="width:148px;" src="@Url.GetItemImageUrl(item)" />
+                            <h1>@item.Name</h1>
+                            @if (item.Discount.HasValue)
+                            {
+                                <h2>
+                                    Price: <strong class="line-through"><span>&nbsp;@String.Format("{0:C}", item.Price)&nbsp; </span></strong>
+                                </h2>
+                                <aside class="discount">Discounted : <strong>@String.Format("{0:C}", item.Discount.Value)</strong></aside>
+                            }
+                            else
+                            {
+                                <h2>
+                                    Price: <strong>@String.Format("{0:C}", item.Price)</strong>
+                                </h2>
+                            }
+                        </a>
+                    </aside>
+                            if (++count % 5 == 0)
+                            {
+                    <div class="clear">
+                        <br />
+                        <br />
+                    </div>
+                            }
+                }
+            </div>
+            <br />
+            <br />
+        </aside>
+    </aside>
+    <aside class="white-box-bottom">
+    </aside>
+    <div class="clear">
+    </div>
+</div>

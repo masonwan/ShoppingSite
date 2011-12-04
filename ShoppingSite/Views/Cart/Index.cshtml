@@ -39,13 +39,13 @@
                         
                         <li>
                             <aside class="width165 left">
-                                <img alt="" src="@Url.GetItemImageUrl(item.Id)" style="width:108px; height:88px;" class="left brdr" /></aside>
+                                <img alt="" src="@Url.GetItemImageUrl(item)" style="width:108px;" class="left brdr" /></aside>
                             <aside class="width330 left padr-30">
                                 <strong class="txt14">@item.Name</strong>
                                 <br />
-                                <span class="left mart-10">@Html.Raw(item.Description.Replace("\\n", "<br />"))</span>
+@*                                <span class="left mart-10">@Html.Raw(item.Description.Replace("\\n", "<br />"))</span>
                                 <br />
-                                <br />
+                                <br />*@
                                 <a href="@Url.Action("RemoveItem", new { ItemId = item.Id })" class="left mart-10">Remove</a>
                             </aside>
                             <aside class="width130 left">@String.Format("{0:C}", unitPrice)</aside>

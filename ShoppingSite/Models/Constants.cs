@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ShoppingSite.Controllers
+namespace ShoppingSite.Models
 {
 	public static class Constants
 	{
-		public const string ITEM_ID_TABLE = "ItemIdTable";
+		public const int NUM_ITEMS_PER_PAGE = 20;
+		public const string ITEM_ID_TABLE = "ItemTable";
 	}
 }
