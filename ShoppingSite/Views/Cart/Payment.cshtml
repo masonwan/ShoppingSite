@@ -117,9 +117,17 @@
                     <section class="width235 right txt12 " style="width: 233px;">
                         <select name="" class="input5  left" style="width: 98px; float: left">
                             <option>Month</option>
+                            @for (int i = 1; i <= 12; i++)
+                            {
+                                <option>@i</option>
+                            }
                         </select>
                         <select name="" class="input5  left" style="width: 98px; float: left; margin-left: 10px;">
                             <option>Year</option>
+                            @for (int year = 1900, max = DateTime.Now.Year; year < max; year++)
+                            {
+                                <option>@year</option>
+                            }
                         </select>
                     </section>
                 </p>

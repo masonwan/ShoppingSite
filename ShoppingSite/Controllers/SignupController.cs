@@ -44,31 +44,44 @@ namespace ShoppingSite.Controllers
 			catch { }
 
 			// Validate
-			if (false == (String.IsNullOrEmpty(user.Name) || form["password"] != form["repassword"] || !emailRegex.IsMatch(user.Email)))
+			if (form["password"] == form["repassword"])
 			{
-				var userWithSameEmail = DB.Users.FirstOrDefault(u => u.Email == user.Email);
-
-				if (userWithSameEmail != null)
-				{
-					TempData["ErrorMessage"] = "Someone has used the email address.";
-					return RedirectToAction("Index");
-				}
-				else
-				{
-					var data = Encoding.ASCII.GetBytes(form["password"]);
-					using (var provider = new MD5CryptoServiceProvider())
-					{
-						data = provider.ComputeHash(data);
-					}
-					var md5Hash = Encoding.ASCII.GetString(data);
-
-					user.Password = md5Hash;
-					DB.Users.Add(user);
-					DB.SaveChanges();
-
-					FormsAuthentication.SetAuthCookie(user.Email, true);
-				}
+				TempData["ErrorMessage"] = "Your passwords are not identical.";
+				return RedirectToAction("Index");
 			}
+
+			if (emailRegex.IsMatch(user.Email) == false)
+			{
+				TempData["ErrorMessage"] = "Your email is not in correct format.";
+				return RedirectToAction("Index");
+			}
+
+			if (String.IsNullOrEmpty(user.Name))
+			{
+				TempData["ErrorMessage"] = "You must have a name.";
+				return RedirectToAction("Index");
+			}
+
+			if (DB.Users.FirstOrDefault(u => u.Email == user.Email) != null)
+			{
+				TempData["ErrorMessage"] = "Someone has used the email address.";
+				return RedirectToAction("Index");
+			}
+
+			var data = Encoding.ASCII.GetBytes(form["password"]);
+			using (var provider = new MD5CryptoServiceProvider())
+			{
+				data = provider.ComputeHash(data);
+			}
+			var md5Hash = Encoding.ASCII.GetString(data);
+
+			user.Password = md5Hash;
+			DB.Users.Add(user);
+			DB.SaveChanges();
+
+			FormsAuthentication.SetAuthCookie(user.Email, true);
+			Session["User.Id"] = user.Id;
+			Session["User.Name"] = user.Name;
 
 			return RedirectToAction("Index", "Home");
 		}
