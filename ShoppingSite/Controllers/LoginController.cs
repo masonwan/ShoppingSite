@@ -47,7 +47,7 @@ namespace ShoppingSite.Controllers
 				// UNDONE: Validation fails.
 				TempData["ErrorMessage"] = "Wrong email or password.";
 
-				return View("Index");
+				return RedirectToAction("Index", new { ReturnUrl = returnUrl });
 			}
 
 			FormsAuthentication.SetAuthCookie(user.Email, isRemembered);

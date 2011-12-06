@@ -50,7 +50,8 @@ namespace ShoppingSite.Controllers
 		[HttpPost]
 		public ActionResult SetOrder()
 		{
-			throw new NotImplementedException();
+			Helper.RemoveItemIdTable(HttpContext);
+			return Content("<p>Your order has been processed.</p>", "text/html");
 		}
 
 		[HttpPost]

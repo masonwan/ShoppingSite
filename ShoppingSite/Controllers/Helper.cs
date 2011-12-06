@@ -21,6 +21,11 @@ namespace System.Web.Mvc
 			return table;
 		}
 
+		public static void RemoveItemIdTable(HttpContextBase context)
+		{
+			context.Session.Remove(Constants.ITEM_ID_TABLE);
+		}
+
 		public static void SetItemIdTable(HttpContextBase context, Dictionary<int, int> table)
 		{
 			context.Session[Constants.ITEM_ID_TABLE] = table;
