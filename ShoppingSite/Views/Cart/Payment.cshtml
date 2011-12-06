@@ -1,96 +1,101 @@
 ﻿@using ShoppingSite.Controllers;
+@using ShoppingSite.Models;
+@model User
 @{
     ViewBag.Title = "Index";
+    var user = Model as User;
 }
 <div id="content" class="img-right">
     <div class="gray-box">
         <aside class="gray-box-top">
         </aside>
         <aside class="gray-box-middle">
-            <form id="form" action="@Url.Action("SetOrder")" method="post">
+            <form action="@Url.Action("Index", "Home")" method="post">
             <img alt="" src="@Url.Content("~/Content/images/ship-address.png")" class="left" />
             <aside class="clear">&nbsp;</aside>
             <section class="signup-box">
                 <p>
                     <span class="left mart-5">Name </span>
-                    <input name="S.Name" type="text" class="input4" />
+                    <input name="S.Name" type="text" class="input4" value="@(user == null ? "" : user.Name)" />
                 </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">Street Address </span>
-                    <input name="S.Address" type="text" class="input4" /></p>
+                    <input name="S.Address" type="text" class="input4" value="@(user == null ? "" : user.Street)" />
+                </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">City </span>
-                    <input name="S.City" type="text" class="input4" />
+                    <input name="S.City" type="text" class="input4" value="@(user == null ? "" : user.City)" />
                 </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">State </span>
-                    <select name="S.State" class="input5">
-                        <option>Select</option>
-                    </select></p>
-                <div class="clear">
-                </div>
-                <p class="mart-5">
-                    <span class="left mart-5">Zip Code </span>
-                    <input name="S.Zip" type="text" class="input4 marr-135" style="width: 90px;" /></p>
+                    <input name="S.State" type="text" class="input4" value="@(user == null ? "" : user.State)" />
+                    <div class="clear">
+                    </div>
+                    <p class="mart-5">
+                        <span class="left mart-5">Zip Code </span>
+                        <input name="S.Zip" type="text" class="input4 marr-135" style="width: 90px;" value="@(user == null ? "" : user.ZipCode)" /></p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">Country </span>
-                    <input name="S.Country" type="text" class="input4" /></p>
+                    <input name="S.Country" type="text" class="input4" value="@(user == null ? "" : user.Country)" /></p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">Phone </span>
-                    <input name="S.Phone" type="text" class="input4" /></p>
+                    <input name="S.Phone" type="text" class="input4" value="" /></p>
             </section>
             <img alt="" src="@Url.GetImageUrl("bill-address.png")" class="left mart-10 clear" /><p class="left mart-15" />
-            <input name="" type="checkbox" value="" />
+            <input name="B.IsSameAsShipping" type="checkbox" value="on" />
             <span class="txt12">Same as above</span>
             <aside class="clear">&nbsp;</aside>
+            <!-- Billing -->
             <section class="signup-box">
                 <p>
                     <span class="left mart-5">Name </span>
-                    <input name="" type="text" class="input4" />
+                    <input name="B.Name" type="text" class="input4" value="@(user == null ? "" : user.Name)" />
                 </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">Street Address </span>
-                    <input name="" type="text" class="input4" /></p>
+                    <input name="B.Address" type="text" class="input4" value="@(user == null ? "" : user.Street)" />
+                </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">City </span>
-                    <input name="" type="text" class="input4" />
+                    <input name="B.City" type="text" class="input4" value="@(user == null ? "" : user.City)" />
                 </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">State </span>
-                    <select name="" class="input5">
-                        <option>Select</option>
-                    </select></p>
-                <div class="clear">
-                </div>
-                <p class="mart-5">
-                    <span class="left mart-5">Zip Code </span>
-                    <input name="" type="text" class="input4 marr-135" style="width: 90px;" /></p>
+                    <input name="B.State" type="text" class="input4" value="@(user == null ? "" : user.State)" />
+                    <div class="clear">
+                    </div>
+                    <p class="mart-5">
+                        <span class="left mart-5">Zip Code </span>
+                        <input name="B.Zip" type="text" class="input4 marr-135" style="width: 90px;" value="@(user == null ? "" : user.ZipCode)" />
+                    </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">Country </span>
-                    <input name="" type="text" class="input4" /></p>
+                    <input name="B.Country" type="text" class="input4" value="@(user == null ? "" : user.Country)" />
+                </p>
                 <div class="clear">
                 </div>
                 <p class="mart-5">
                     <span class="left mart-5">Phone </span>
-                    <input name="" type="text" class="input4" /></p>
+                    <input name="" type="text" class="input4" />
+                </p>
             </section>
             <img alt="" src="@Url.GetImageUrl("pay-info.png")" class="left mart-10 clear" />
             <aside class="clear">&nbsp;</aside>

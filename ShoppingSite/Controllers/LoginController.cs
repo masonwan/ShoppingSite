@@ -5,164 +5,71 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using ShoppingSite.Models;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace ShoppingSite.Controllers
 {
 	public class LoginController : BaseController
 	{
-		public ActionResult Index()
+		public ActionResult Index(string returnUrl)
 		{
-			var x = new MyMembershipProvider();
+			ViewBag.ReturnUrl = returnUrl;
 
 			return View();
 		}
-	}
 
-	public class MyMembershipProvider : MembershipProvider
-	{
-		ShoppingSiteEntities db = new ShoppingSiteEntities();
-
-		public override string ApplicationName
+		public ActionResult Login(string returnUrl)
 		{
-			get
+			var form = Request.Form;
+
+			var email = form["email"] as string;
+			var password = form["password"] as string;
+			var isRemembered = form["remember"] as string == "on";
+
+			if (email == null || password == null)
 			{
-				throw new NotImplementedException();
+				return View();
 			}
-			set
+
+			// Validate the email and password.
+			var data = Encoding.ASCII.GetBytes(form["password"]);
+			using (var provider = new MD5CryptoServiceProvider())
 			{
-				throw new NotImplementedException();
+				data = provider.ComputeHash(data);
 			}
+			var md5Hash = Encoding.ASCII.GetString(data);
+
+			var user = DB.Users.FirstOrDefault(u => u.Email == email && u.Password == md5Hash);
+
+			if (user == null)
+			{
+				// UNDONE: Validation fails.
+				TempData["ErrorMessage"] = "Wrong email or password.";
+
+				return View("Index");
+			}
+
+			FormsAuthentication.SetAuthCookie(user.Email, isRemembered);
+			Session["User.Id"] = user.Id;
+			Session["User.Name"] = user.Name;
+
+			if (Url.IsLocalUrl(returnUrl) &&
+				returnUrl.Length > 1 && returnUrl.StartsWith("/") &&
+				!returnUrl.StartsWith("//") &&
+				!returnUrl.StartsWith("/\\"))
+			{
+				return Redirect(returnUrl);
+			}
+
+			return RedirectToAction("Index", "Home");
 		}
 
-		public override bool ChangePassword(string username, string oldPassword, string newPassword)
+		public ActionResult Logout()
 		{
-			throw new NotImplementedException();
-		}
+			FormsAuthentication.SignOut();
 
-		public override bool ChangePasswordQuestionAndAnswer(string username, string password, string newPasswordQuestion, string newPasswordAnswer)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override MembershipUser CreateUser(string username, string password, string email, string passwordQuestion, string passwordAnswer, bool isApproved, object providerUserKey, out MembershipCreateStatus status)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override bool DeleteUser(string username, bool deleteAllRelatedData)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override bool EnablePasswordReset
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override bool EnablePasswordRetrieval
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override MembershipUserCollection FindUsersByEmail(string emailToMatch, int pageIndex, int pageSize, out int totalRecords)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override MembershipUserCollection FindUsersByName(string usernameToMatch, int pageIndex, int pageSize, out int totalRecords)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override MembershipUserCollection GetAllUsers(int pageIndex, int pageSize, out int totalRecords)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override int GetNumberOfUsersOnline()
-		{
-			throw new NotImplementedException();
-		}
-
-		public override string GetPassword(string username, string answer)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override MembershipUser GetUser(string username, bool userIsOnline)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override MembershipUser GetUser(object providerUserKey, bool userIsOnline)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override string GetUserNameByEmail(string email)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override int MaxInvalidPasswordAttempts
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override int MinRequiredNonAlphanumericCharacters
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override int MinRequiredPasswordLength
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override int PasswordAttemptWindow
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override MembershipPasswordFormat PasswordFormat
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override string PasswordStrengthRegularExpression
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override bool RequiresQuestionAndAnswer
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override bool RequiresUniqueEmail
-		{
-			get { throw new NotImplementedException(); }
-		}
-
-		public override string ResetPassword(string username, string answer)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override bool UnlockUser(string userName)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override void UpdateUser(MembershipUser user)
-		{
-			throw new NotImplementedException();
-		}
-
-		public override bool ValidateUser(string username, string password)
-		{
-			throw new NotImplementedException();
+			return RedirectToAction("Index", "Home");
 		}
 	}
-
 }

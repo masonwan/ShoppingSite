@@ -9,5 +9,6 @@ namespace ShoppingSite.Models
 	{
 		public const int NUM_ITEMS_PER_PAGE = 20;
 		public const string ITEM_ID_TABLE = "ItemTable";
+		public static readonly string[] DEPARTMENT_OPTIONS = new string[] { "All", "Men", "Women", "Boys", "Girls", };
 	}
 }

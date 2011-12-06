@@ -1,0 +1,19 @@
+﻿@if (Request.IsAuthenticated)
+{
+    var name = Session["User.Name"] as string;
+    
+    if (name == null)
+    {
+        FormsAuthentication.SignOut();
+    }
+    
+    @Html.Raw("Welcome, " + name)
+    <br />
+    @Html.ActionLink("Log out", "Logout", "Login")
+}
+else
+{
+    @Html.ActionLink("Login", "Index", "Login")
+    <strong style="font-weight: normal; font-size: 12px;">|</strong>
+    @Html.ActionLink("Sign up", "Index", "Signup")
+}

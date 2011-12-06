@@ -24,9 +24,27 @@ namespace ShoppingSite.Controllers
 			return View(itemsTable);
 		}
 
-		public ActionResult Payment()
+		public ActionResult Payment(bool? doesIgnoreLogin)
 		{
-			return View();
+			if (doesIgnoreLogin != null && doesIgnoreLogin.Value)
+			{
+				return View("Payment");
+			}
+
+			if (Request.IsAuthenticated)
+			{
+				var user = DB.Users.Find(Session["User.Id"]);
+
+				if (user == null)
+				{
+					return RedirectToAction("Index", "Home");
+				}
+
+				return View("Payment", user);
+			}
+
+			// TODO: redirect to login page.
+			return RedirectToAction("Index", "Login", new { ReturnUrl = Url.Action("Payment", "Cart") });
 		}
 
 		[HttpPost]
@@ -57,7 +75,6 @@ namespace ShoppingSite.Controllers
 			return RedirectToAction("Index");
 		}
 
-		//[HttpDelete]
 		public ActionResult RemoveItem(int? itemId)
 		{
 			if (itemId != null)

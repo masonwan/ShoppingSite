@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Text.RegularExpressions;
 using System.Security.Cryptography;
 using System.Text;
+using System.Web.Security;
 
 namespace ShoppingSite.Controllers
 {
@@ -45,23 +46,27 @@ namespace ShoppingSite.Controllers
 			// Validate
 			if (false == (String.IsNullOrEmpty(user.Name) || form["password"] != form["repassword"] || !emailRegex.IsMatch(user.Email)))
 			{
-				var users = DB.Users.Where(u => u.Email == user.Email);
+				var userWithSameEmail = DB.Users.FirstOrDefault(u => u.Email == user.Email);
 
-				if (users.Count() > 0)
+				if (userWithSameEmail != null)
 				{
-					// The email exists.
+					TempData["ErrorMessage"] = "Someone has used the email address.";
+					return RedirectToAction("Index");
 				}
 				else
 				{
-					var provider = new MD5CryptoServiceProvider();
 					var data = Encoding.ASCII.GetBytes(form["password"]);
-					data = provider.ComputeHash(data);
+					using (var provider = new MD5CryptoServiceProvider())
+					{
+						data = provider.ComputeHash(data);
+					}
 					var md5Hash = Encoding.ASCII.GetString(data);
 
 					user.Password = md5Hash;
 					DB.Users.Add(user);
-					//var numRows = 
 					DB.SaveChanges();
+
+					FormsAuthentication.SetAuthCookie(user.Email, true);
 				}
 			}
 

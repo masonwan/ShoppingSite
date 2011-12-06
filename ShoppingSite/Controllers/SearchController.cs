@@ -11,19 +11,6 @@ namespace ShoppingSite.Controllers
 	public class SearchController : BaseController
 	{
 		[HttpPost]
-		public ActionResult Test()
-		{
-			var builder = new StringBuilder();
-
-			foreach (var key in Request.Form.AllKeys)
-			{
-				builder.AppendFormat("{0}:{1}\n", key, Request.Form[key]);
-			}
-
-			return Content(builder.ToString());
-		}
-
-		[HttpPost]
 		public ActionResult Index()
 		{
 			var department = Request.Form["department"];
@@ -67,12 +54,6 @@ namespace ShoppingSite.Controllers
 			ViewBag.Query = query;
 			ViewBag.Page = page.Value;
 			ViewBag.TotalPages = totalPages;
-
-			var debugInfo = new Dictionary<string, object>();
-			debugInfo["items found = "] = itemsFound.Count();
-			debugInfo["items used = "] = itemsUsed.Count();
-			debugInfo["total pages"] = totalPages;
-			ViewBag.DebugInfo = debugInfo;
 
 			return View(itemsUsed);
 		}

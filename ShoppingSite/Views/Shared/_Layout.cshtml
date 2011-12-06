@@ -3,6 +3,8 @@
 @{
     var department = ViewBag.Department as Department;
     var numItems = Helper.GetItemIdTable(Context).Count;
+    var query = ViewBag.Query as string;
+    var departmentSearched = (ViewBag.DepartmentSearched as String) ?? Constants.DEPARTMENT_OPTIONS[0];
 }
 @functions 
 {    
@@ -37,25 +39,26 @@
   <![endif]-->
 </head>
 <body>
-@{
-    var dictDebugInfo = ViewBag.DebugInfo as Dictionary<string, object>;
+    @{
+        var dictDebugInfo = ViewBag.DebugInfo as Dictionary<string, object>;
 
-    if (dictDebugInfo != null)
-    {
-        foreach (var key in dictDebugInfo.Keys)
+        if (dictDebugInfo != null)
         {
-            Html.Encode(String.Format("<p>{0}:{1}</p>", key, dictDebugInfo[key]));
+            foreach (var key in dictDebugInfo.Keys)
+            {
+                Html.Encode(String.Format("<p>{0}:{1}</p>", key, dictDebugInfo[key]));
+            }
         }
     }
-}
     <section id="container">
         <header id="header">
             <div id="header-in">
                 <aside class="logo">
-                    <a href="@Url.Content("~/Home")">
+                    <a href="@Url.Action("Index", "Home")">
                         <img alt="" src="@Url.Content("~/Content/images/logo.png")" /></a></aside>
                 <aside class="top-links margnleft342">
-                    <a href="@Url.Content("~/Login")">Sign In</a><strong style="font-weight: normal; font-size: 12px;">|</strong> <a href="@Url.Content("~/Signup")">Sign Up</a></aside>
+                    @Html.Partial("_LogOnPartial")
+                </aside>
                 <aside class="serch-box">
                     <input class="input1 left" type="text" value="Store Locator" onfocus="if (this.value == 'Store Locator') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Store Locator';}" />
                     <a href="#" class="left">
@@ -63,7 +66,7 @@
                 </aside>
                 <nav id="navgation">
                     <ul>
-                        <li><a class="home" href="@Url.Content("~/Home")"></a></li>
+                        <li><a class="home" href="@Url.Action("Index", "Home")"></a></li>
                         <li><a class="means" href="@Url.Action("Index", "Department", new { DepartmentId = 1 })"@GetDepartmentUrl(department, 1)></a></li>
                         <li><a class="women" href="@Url.Action("Index", "Department", new { DepartmentId = 2 })"@GetDepartmentUrl(department, 2)></a></li>
                         <li><a class="boy" href="@Url.Action("Index", "Department", new { DepartmentId = 3 })"@GetDepartmentUrl(department, 3)></a></li>
@@ -75,18 +78,17 @@
                 </aside>
                 <nav id="nav-bot">
                     <div class="right marright40">
-                        <a href="@Url.Content("~/Cart")">
+                        <a href="@Url.Action("Index", "Cart")">
                             <img alt="" src="@Url.Content("~/Content/images/icone2.png")" hspace="2" align="absmiddle" />My Cart: <strong>@numItems item@(numItems >= 2 ? "s" : "")</strong></a>
                     </div>
                     <form action="@Url.Action("Index", "Search")" method="post">
                     <select name="Department" class="select1 left">
-                        <option selected>All</option>
-                        <option>Men</option>
-                        <option>Women</option>
-                        <option>Boys</option>
-                        <option>Girls</option>
+                        @foreach (var d in Constants.DEPARTMENT_OPTIONS)
+                        {
+                            <option@((d == departmentSearched) ? " selected" : "")>@d</option>
+                        }
                     </select>
-                    <input class="input2 left marleft22" type="text" value="Search" name="Query" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
+                    <input class="input2 left marleft22" type="search" value="@(String.IsNullOrEmpty(query) ? "Search" : query)" name="Query" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
                     <input id="search" type="image" src="@Url.Content("~/Content/images/btn-search.png")" />
                     </form>
                 </nav>

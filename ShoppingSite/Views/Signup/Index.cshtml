@@ -1,13 +1,19 @@
-﻿@{
+﻿@model ShoppingSite.Models.RegisterModel
+@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var errerMessage = TempData["ErrorMessage"] as string;
 }
 <div id="content" class="img-right">
     <div class="gray-box">
         <aside class="gray-box-top">
         </aside>
         <aside class="gray-box-middle">
-            <form id="form" action="@Url.Action("CreateUser")" method="post">
+            @if (errerMessage != null)
+            {
+                <p style="margin: 0 0 30px 0; background-color:Red;">@errerMessage</p>
+            }
+            <form action="@Url.Action("CreateUser")" method="post">
             <img alt="" src="@Url.Content("~/Content/images/gen-info.png")" class="left" />
             <aside class="clear">&nbsp;</aside>
             <section class="signup-box">

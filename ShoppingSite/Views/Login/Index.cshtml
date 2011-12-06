@@ -1,58 +1,72 @@
-﻿@{
-	ViewBag.Title = "Login";
-	Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@model ShoppingSite.Models.RegisterModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var returnUrl = ViewBag.ReturnUrl as string;
+    var errorMessage = TempData["ErrorMessage"] as string;
 }
 <div id="content" class="img-right">
-	<div class="gray-box">
-		<aside class="gray-box-top">
-		</aside>
-		<aside class="gray-box-middle">
-			<img alt="" src="@Url.Content("~/Content/images/i-have-acc.png")" class="left">
-			<aside class="clear">&nbsp;</aside>
-			<section class="login-box">
-				<p>
-					<span class="left mart-5">Email </span>
-					<input name="" type="text" class="input3">
-					<div class="clear">
-					</div>
-					<div class="error right">
-						Enter valid email id</div>
-				</p>
-				<div class="clear">
-				</div>
-				<p class="mart-10">
-					<span class="left mart-5">Password </span>
-					<input name="" type="password" class="input3"></p>
-				<div class="clear">
-				</div>
-				<aside class="width235 right txt12 ">
-					<span class="mart-15 left">&nbsp;&nbsp;I forget my password</span>
-					<div class="clear">
-					</div>
-					<span class="mart-15 left">
-						<input name="" type="checkbox" value="" />
-						Remember my password</span>
-					<div class="clear">
-					</div>
-					<span class="mart-15 left">
-						<input type="image" src="@Url.Content("~/Content/images/signin.png")" /></span>
-					<div class="clear">
-						&nbsp;</div>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-				</aside>
-			</section>
-			<img alt="" src="@Url.Content("~/Content/images/or.jpg")" class="left marl-30">
-			<img alt="" src="@Url.Content("~/Content/images/dont-have-acc.gif")" class="left marl-30">
-		</aside>
-		<aside class="gray-box-bottom">
-		</aside>
-	</div>
-	<div class="clear">
-	</div>
+    <div class="gray-box">
+        <aside class="gray-box-top">
+        </aside>
+        <aside class="gray-box-middle">
+            <img alt="" src="@Url.Content("~/Content/images/i-have-acc.png")" class="left" />
+            <aside class="clear">&nbsp;</aside>
+            <section class="login-box">
+                @if (errorMessage != null)
+                {
+                    <p style="margin: 0 0 30px 0; background-color: Red;">@errorMessage</p>
+                }
+                @using (Html.BeginForm("Login", "Login", new { ReturnUrl = returnUrl }))
+                {
+                    <p>
+                        <span class="left mart-5">Email </span>
+                        <input name="email" type="email" class="input3" />
+                        <div class="clear">
+                        </div>
+                    </p>
+                    <div class="clear">
+                    </div>
+                    <p class="mart-10">
+                        <span class="left mart-5">Password </span>
+                        <input name="password" type="password" class="input3" />
+                    </p>
+                    <div class="clear">
+                    </div>
+                    <aside class="width235 right txt12 ">
+                        @*<span class="mart-15 left">&nbsp;&nbsp;I forget my password</span>*@
+                        <div class="clear">
+                        </div>
+                        <span class="mart-15 left">
+                            <input name="remember" type="checkbox" />
+                            Remember my password </span>
+                        <div class="clear">
+                        </div>
+                        <span class="mart-15 left">
+                            <input type="image" src="@Url.Content("~/Content/images/signin.png")" /></span>
+                        <div class="clear">
+                            &nbsp;</div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </aside>                
+                }
+            </section>
+            @if (returnUrl != null)
+            {
+                <img alt="" src="@Url.Content("~/Content/images/or.jpg")" class="left marl-30" />
+                <a href="@Url.Action("Payment", "Cart", new { DoesIgnoreLogin = true })">
+                    <img alt="" src="@Url.Content("~/Content/images/dont-have-acc.gif")" class="left marl-30" />
+                </a>
+            }
+        </aside>
+        <aside class="gray-box-bottom">
+        </aside>
+    </div>
+    <div class="clear">
+    </div>
 </div>

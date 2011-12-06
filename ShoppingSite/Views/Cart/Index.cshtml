@@ -5,7 +5,7 @@
     ViewBag.Title = "Index";
 
     var itemTable = Model;
-    var shippingPrice = 8m;
+    var shippingPrice = (itemTable.Count > 0) ? 8m : 0m;
     var taxRate = 0.07m;
 }
 <div id="content">
@@ -41,11 +41,8 @@
                             <aside class="width165 left">
                                 <img alt="" src="@Url.GetItemImageUrl(item)" style="width:108px;" class="left brdr" /></aside>
                             <aside class="width330 left padr-30">
-                                <strong class="txt14">@item.Name</strong>
+                                <strong class="txt14"><a href="@Url.Action("Index", "Item", new { ItemId = item.Id })">@item.Name</a></strong>
                                 <br />
-@*                                <span class="left mart-10">@Html.Raw(item.Description.Replace("\\n", "<br />"))</span>
-                                <br />
-                                <br />*@
                                 <a href="@Url.Action("RemoveItem", new { ItemId = item.Id })" class="left mart-10">Remove</a>
                             </aside>
                             <aside class="width130 left">@String.Format("{0:C}", unitPrice)</aside>
@@ -85,8 +82,11 @@
                             <span class="mart-15 left padl-20"><strong>@String.Format("{0:C}", overall)</strong></span>
                             <div class="clear">
                                 &nbsp;</div>
-                            <a href="@Url.Action("Payment")">
-                                <input type="image" src="@Url.GetImageUrl("checkout.jpg")" class="left mart-10" /></a>
+                            @if (itemTable.Count > 0)
+                            {
+                                <a href="@Url.Action("Payment")">
+                                    <input type="image" src="@Url.GetImageUrl("checkout.jpg")" class="left mart-10" /></a>
+                            }
                         </aside>
                     </li>
                 </ul>

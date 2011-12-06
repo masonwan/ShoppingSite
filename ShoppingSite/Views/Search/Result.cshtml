@@ -8,7 +8,7 @@
     var query = ViewBag.Query as string;
     var totalPages = (int)ViewBag.TotalPages;
     var department = ViewBag.Department as Department;
-    var departmentSearched = ViewBag.DepartmentSearched;
+    var departmentSearched = ViewBag.DepartmentSearched as String;
 }
 <div id="content">
     <aside class="white-box-top">
@@ -17,7 +17,7 @@
         <aside class="check-wrap">
             <aside class="clear">
                 <strong class="txt16 txt-gray left">You search for '@query'</strong>
-                <aside class="paging">
+                <span class="paging">
                     @for (int p = 1; p <= totalPages; p++)
                     {
                         if (p == currentPage)
@@ -29,7 +29,7 @@
                         <a href="@Url.Action("Result", "Search", new { Query = query, Page = p, Department = departmentSearched })">@p</a>
                         }
                     }
-                </aside>
+                </span>
             </aside>
             <div class="clear">
             </div>
