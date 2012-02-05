@@ -12,6 +12,7 @@ namespace ShoppingSite.Controllers
 {
 	public class LoginController : BaseController
 	{
+		[RequireHttps]
 		public ActionResult Index(string returnUrl)
 		{
 			ViewBag.ReturnUrl = returnUrl;

@@ -752,8 +752,6 @@ select {
 	border: 1px solid #ccc;
 	float: left;
 	margin-left: 40px;
-	width: 370px;
-	height: 323px;
 	margin-top: -36px;
 }
 
@@ -761,7 +759,6 @@ select {
 	padding-left: 2em;
 	margin-left: 2em;
 }
-
 
 /*start slider gallery css*/
 .container {

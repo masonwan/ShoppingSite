@@ -83,7 +83,7 @@
                                 &nbsp;</div>
                             @if (itemTable.Count > 0)
                             {
-                                <a href="@Url.Action("Payment")">
+                                <a href="@Url.Action("Payment", "Cart", null, "https")">
                                     <input type="image" src="@Url.GetImageUrl("checkout.jpg")" class="left mart-10" /></a>
                             }
                         </aside>

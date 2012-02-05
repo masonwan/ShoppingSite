@@ -14,7 +14,6 @@ namespace ShoppingSite.Controllers
 			return View(DB.Stores.ToList());
 		}
 
-		[HttpGet]
 		public JsonResult GetStores()
 		{
 			try

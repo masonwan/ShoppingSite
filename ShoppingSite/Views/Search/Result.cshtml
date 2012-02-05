@@ -16,17 +16,23 @@
     <aside class="white-box-middle">
         <aside class="check-wrap">
             <aside class="clear">
-                <strong class="txt16 txt-gray left">You search for '@query'</strong>
-                <span class="paging">
-                    @for (int p = 1; p <= totalPages; p++)
+                <strong class="txt16 txt-gray left">You search for '@query'</strong> <span class="paging">
+                    @if (items.Count() == 0)
                     {
-                        if (p == currentPage)
+                        @Html.Raw("There is no result.")
+                    }
+                    else
+                    {
+                        for (int p = 1; p <= totalPages; p++)
                         {
+                            if (p == currentPage)
+                            {
                         <a href="@Url.Action("Result", "Search", new { Query = query, Page = p, Department = departmentSearched })" class="activepage">@p</a>
-                        }
-                        else
-                        {
+                            }
+                            else
+                            {
                         <a href="@Url.Action("Result", "Search", new { Query = query, Page = p, Department = departmentSearched })">@p</a>
+                            }
                         }
                     }
                 </span>
@@ -41,7 +47,7 @@
                 }
                 @foreach (var item in items)
                 {
-                    <aside class="pro-box" style="width:144px;">
+                    <aside class="pro-box" style="width: 144px;">
                         <a href="@Url.Action("Index", "Item", new { ItemId = item.Id })">
                             <img alt="" style="width:148px;" src="@Url.GetItemImageUrl(item)" />
                             <h1>@item.Name</h1>

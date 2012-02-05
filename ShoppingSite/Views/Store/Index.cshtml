@@ -5,12 +5,14 @@
     var stores = Model;
     var urlParkingIcon = Url.Content("~/Content/images/right.png");
 }
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="@Url.Content("~/Content/js/locator.js")"></script>
 <div id="content">
     <aside class="white-box-top">
     </aside>
     <aside class="white-box-middle">
         <aside class="check-wrap">
-            <img alt="" src="@Url.Content("~/Content/images/location.jpg")">
+            <img alt="" src="@Url.Content("~/Content/images/location.jpg")" />
             <div class="clear">
                 &nbsp;</div>
             <br />
@@ -22,107 +24,14 @@
                     </li>
                 </ul>
             </aside>
-            <aside class="loc-info">
-                @*<ul>
-                    @foreach (var store in stores)
-                    {
-                        <li>
-                            <aside class="width300 left">
-                                <strong class="txt14">@store.Name</strong>
-                                <br />@store.Address
-                                <br />@store.Phone
-                                <aside class="width130 left">12 miles
-<br />
-                                        <a href="#" class="left mart-10">Show me the direction</a>
-                                </aside>
-                                <div class="clear">
-                                    &nbsp;</div>
-                                <strong>Parking</strong>
-                                <div class="clear">
-                                </div>
-                                <aside class="parking">
-                                    @if (store.HasIndoor)
-                                    {
-                                        <span>
-                                            <img alt="" src="@urlParkingIcon" class="absmiddle" />
-                                            Indoor</span>
-                                    }
-                                    @if (store.HasOutdoor)
-                                    {
-                                        <span>
-                                            <img alt="" src="@urlParkingIcon" class="absmiddle marl-30">
-                                            Outdoor</span>
-                                    }
-                                    @if (store.HasStreet)
-                                    {
-                                        <span>
-                                            <img alt="" src="@urlParkingIcon" class="absmiddle marl-30">
-                                            Street</span>
-                                    }
-                                </aside>
-                            </aside>
-                        </li>
-                    }
-                </ul>*@
+            <aside class="loc-info" id='nearest'>
             </aside>
-            <aside class="map">
-                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <aside class="map" style="max-width: 370px;">
                 <article>
-                    <p style="color: #fff; font-size: 1px; text-indent: 2000px; margin-top: -4px;">
-                        Finding your location: <span id="status">checking...</span></p>
+                    <p style="padding: 15px 0px;">
+                        <span style="line-height: 30px; color: White; padding: 5px; background: none repeat scroll 0 0 rgb(152,31,36)" id="status">Checking your location...</span>
+                    </p>
                 </article>
-                <article class="clear">&nbsp;</article>
-                <script>
-                    function success(position) {
-                        var s = document.querySelector('#status');
-
-                        if (s.className == 'success') {
-                            // not sure why we're hitting this twice in FF, I think it's to do with a cached result coming back    
-                            return;
-                        }
-
-                        s.innerHTML = "Found you!";
-                        s.className = 'success';
-
-                        var mapcanvas = document.createElement('div');
-                        mapcanvas.id = 'mapcanvas';
-                        mapcanvas.style.height = '322px';
-                        mapcanvas.style.width = '370px';
-
-                        document.querySelector('article').appendChild(mapcanvas);
-
-                        var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-                        var myOptions = {
-                            zoom: 15,
-                            center: latlng,
-                            mapTypeControl: false,
-                            navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
-                            mapTypeId: google.maps.MapTypeId.ROADMAP
-                        };
-                        var map = new google.maps.Map(document.getElementById("mapcanvas"), myOptions);
-
-                        var marker = new google.maps.Marker({
-                            position: latlng,
-                            map: map,
-                            title: "You are here!"
-                        });
-                    }
-
-                    function error(msg) {
-                        var s = document.querySelector('#status');
-                        s.innerHTML = typeof msg == 'string' ? msg : "failed";
-                        s.className = 'fail';
-
-                        // console.log(arguments);
-                    }
-
-                    if (navigator.geolocation) {
-                        navigator.geolocation.getCurrentPosition(success, error);
-                    } else {
-                        error('not supported');
-                    }
-
-                </script>
             </aside>
             <div class="clear">
                 &nbsp;</div>

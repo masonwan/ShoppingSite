@@ -147,6 +147,7 @@
     <Content Include="Content\images\bg-white-middle.png" />
     <Content Include="Content\images\bg-white-top.png" />
     <Content Include="Content\images\bill-address.png" />
+    <Content Include="Content\images\blue-dot.png" />
     <Content Include="Content\images\boys.png" />
     <Content Include="Content\images\btn-search.png" />
     <Content Include="Content\images\btn_next.png" />
@@ -172,6 +173,7 @@
     <Content Include="Content\images\ico-zoom.jpg" />
     <Content Include="Content\images\icone2.png" />
     <Content Include="Content\images\img-left-smll.jpg" />
+    <Content Include="Content\images\img-not-available.jpg" />
     <Content Include="Content\images\img-right.jpg" />
     <Content Include="Content\images\input1-bg.jpg" />
     <Content Include="Content\images\location.jpg" />
@@ -186,6 +188,7 @@
     <Content Include="Content\images\pic2.jpg" />
     <Content Include="Content\images\pic2.png" />
     <Content Include="Content\images\pic3.jpg" />
+    <Content Include="Content\images\pink-dot.png" />
     <Content Include="Content\images\place-order.png" />
     <Content Include="Content\images\right.png" />
     <Content Include="Content\images\sale.png" />
@@ -664,6 +667,7 @@
     <Content Include="Content\js\html5shiv.googlecode.com svn trunk html5.js" />
     <Content Include="Content\js\ie8.js" />
     <Content Include="Content\js\jquery-1.4.min.js" />
+    <Content Include="Content\js\locator.js" />
     <Content Include="Content\js\loopedslider.min.js" />
     <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />

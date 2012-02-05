@@ -15,6 +15,7 @@ namespace ShoppingSite.Controllers
 		readonly Regex emailRegex = new Regex(@"^([a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]){1,70}$");
 		readonly Regex zipRegex = new Regex(@"(\d{5}-\d{3})|(\d{5})");
 
+		[RequireHttps]
 		public ActionResult Index()
 		{
 			return View();
@@ -44,28 +45,28 @@ namespace ShoppingSite.Controllers
 			catch { }
 
 			// Validate
-			if (form["password"] == form["repassword"])
+			if (form["password"] != form["repassword"])
 			{
 				TempData["ErrorMessage"] = "Your passwords are not identical.";
-				return RedirectToAction("Index");
+				return RedirectToAction("Index", "Signup");
 			}
 
 			if (emailRegex.IsMatch(user.Email) == false)
 			{
 				TempData["ErrorMessage"] = "Your email is not in correct format.";
-				return RedirectToAction("Index");
+				return RedirectToAction("Index", "Signup");
 			}
 
 			if (String.IsNullOrEmpty(user.Name))
 			{
 				TempData["ErrorMessage"] = "You must have a name.";
-				return RedirectToAction("Index");
+				return RedirectToAction("Index", "Signup");
 			}
 
 			if (DB.Users.FirstOrDefault(u => u.Email == user.Email) != null)
 			{
 				TempData["ErrorMessage"] = "Someone has used the email address.";
-				return RedirectToAction("Index");
+				return RedirectToAction("Index", "Signup");
 			}
 
 			var data = Encoding.ASCII.GetBytes(form["password"]);
