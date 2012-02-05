@@ -1,8 +1,5 @@
 CMPE 285 Final Project - Shopping Guide
 =======================================
-Host
-----
-[http://yyfearth.com:8080/ShoppingSite](http://yyfearth.com:8080/ShoppingSite)
 
 
 Team Members
@@ -19,9 +16,23 @@ Mazedur Rahman
 [Mail](http://scr.im/2gwz)
 510-828-5984
 
-Menghsi Wan
-[Mail](http://scr.im/2gx0)
-925-289-8630
+[Mason Wan](https://plus.google.com/107802547581393709730/about)
+
+
+License
+=======
+> This program is free software: you can redistribute it and/or modify
+> it under the terms of the GNU General Public License as published by
+> the Free Software Foundation, either version 3 of the License, or
+> (at your option) any later version.
+> 
+> This program is distributed in the hope that it will be useful,
+> but WITHOUT ANY WARRANTY; without even the implied warranty of
+> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+> GNU General Public License for more details.
+> 
+> You should have received a copy of the GNU General Public License
+> along with this program.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
 
 
 Technologies
@@ -108,19 +119,3 @@ Contents
     * Web.config (Website setting)
     * Web.Debug.config (Website setting for debugging)
     * Web.Release.config (Website setting for releasing)
-
-
-License
-=======
-> This program is free software: you can redistribute it and/or modify
-> it under the terms of the GNU General Public License as published by
-> the Free Software Foundation, either version 3 of the License, or
-> (at your option) any later version.
-> 
-> This program is distributed in the hope that it will be useful,
-> but WITHOUT ANY WARRANTY; without even the implied warranty of
-> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-> GNU General Public License for more details.
-> 
-> You should have received a copy of the GNU General Public License
-> along with this program.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
